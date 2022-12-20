@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+}
+
+header {
+    background-image: -moz-element();
+}
+
+h1 {
+    color: gray;
+}
+
+table {
+    text-align: center;
+}
+
+h3, label {
+    color: white;
+}
+
+#tabla1, #tabla2{
+    width: 35%;
+}
+
+
+#form1 {
+    background-color: #070707;
+    border-radius: 10px;
+}
+
+#form2 {
+    background-color: #070707;
+    border-radius: 10px;
+}
