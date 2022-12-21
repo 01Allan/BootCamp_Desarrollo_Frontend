@@ -1,13 +1,25 @@
-body {
+/*body {
     text-align: center;
-}
+}*/
 
 header {
-    background-image: -moz-element();
+    background-image: url(/MATERIAL\ COMPLEMENTARIO/fondo.jpg);
+    background-repeat: repeat-x;
+    background-position: right top;
+    background-size: 25em;
+    size: 10em;
 }
+
+#nxd {
+    text-align: left;
+}
+
+
 
 h1 {
     color: gray;
+    size: 200em;
+    text-align: center;
 }
 
 table {
@@ -18,17 +30,42 @@ h3, label {
     color: white;
 }
 
+th {
+    color: gray;
+    padding-left: 10em;
+}
+
 #tabla1, #tabla2{
     width: 35%;
+    text-align: center;
 }
 
 
 #form1 {
     background-color: #070707;
     border-radius: 10px;
+    text-align: center;
 }
 
 #form2 {
     background-color: #070707;
     border-radius: 10px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+#bebidas, #tablas, #shop {
+    padding: 5em;
+   
+
+}
+
+footer {
+    text-align: center;
+    color: rgb(194, 186, 186);
+    padding: 100px;
+    background-image: url(/MATERIAL\ COMPLEMENTARIO/fondo.jpg);
 }
