@@ -1,0 +1,67 @@
+/*Orden gerarquico CSS */
+
+/*
+Cuando definimos un estilo, la última instrucción será la que prevalezca siempre que estamos
+refiriéndonos a un mismo selector, pero, en caso contrario, la indicación más específica será la que
+prevalecerá.
+
+*/
+
+/*
+div{
+    background-color: red;
+}
+
+div{
+    background-color: yellow;
+}
+
+*/
+
+/*
+#division {
+    color: blue;
+}
+
+.contenedor {
+    color: red;
+}
+
+div {
+    color: green;
+}
+
+*/
+
+/* 
+    Modelo de cajas
+
+Las cajas de una página web se crean automáticamente cada vez que se inserta una etiqueta HTML.
+Estas son cajas rectangulares que encierran los contenidos del elemento insertado.
+
+Las cajas con una característica muy importante de CSS ya que condiciona todo el diseño de
+una página web. Estas cajas no son visibles a simple vista.
+*/
+
+
+/*
+Para agregar un color de fondo a más de un elemento a la vez, solo separaremos los
+elementos por coma.
+*/
+
+div, a {
+    background-color: chartreuse;
+}
+
+#division {
+    margin: 10%;
+    padding: 10%;
+    border-color: black;
+    border-style: solid;
+}
+
+div{
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+}

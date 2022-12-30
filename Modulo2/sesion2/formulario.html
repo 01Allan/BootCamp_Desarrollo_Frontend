@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario xd</title>
+</head>
+<body>
+    <form action="redireccion.html" method="post">
+        <label for="Nombre">Nombre</label>  
+        <input type="text" name="Nombre" id="Nombre">
+        <label for="Direccion">Direccion</label>
+        <input type="text" name="Direccion" id="Direccion">
+        <label for="lista">Color favorito</label>
+        <input type="text" name="lista" list="colores">
+        <datalist id="colores">
+            <option label="Rojo" value="rojo">rojo</option>
+            <option value="azul">azul</option>
+            <option value="amarillo">Amarillo</option>
+        </datalist>
+
+        <label for="animales">Animales favoritos</label>
+        <select name="animales" id="animales">  
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+            <option value="conejo">Conejo</option>
+        </select>
+
+        <button>Enviar xd</button>
+
+        <p>Otra forma para hacer botones: <br></p>
+        <label for="">click me xd</label>
+        <input type="button" value="Botón">
+        <p>checkboxs xd</p>
+        <label for="">Verde</label>
+        <input type="checkbox" name="color" value="verde">
+        <label for="">Amarillo</label>
+        <input type="checkbox" name="color" value="amarillo">
+        <label for="">Rojo</label>
+        <input type="checkbox" name="color" value="Rojo">
+
+        <p>Otra forma de poner colores xd</p>
+        <input type="color">
+
+        <p>fechas xd</p>
+        <input type="date" name="" id="">
+        <input type="datetime-local" name="" id="">
+
+        <p>user and password xd</p>
+        <input type="email" name="" id="">
+        <input type="password" name="" id="">
+
+        <p>numero xd</p>
+        <input type="number" name="" id="">
+
+        <p>submit</p>
+        <input type="submit" value="Enviar consulta xd">
+
+        <p>botones de radio xd</p>
+        <label for="">Verde</label>
+        <input type="radio" value="Verde" name="color">
+        <label for="">Amarillo</label>
+        <input type="radio" value="Amarillo" name="color">
+        <label for="">Rojo</label>
+        <input type="radio" value="Rojo" name="color">
+
+        <p>para subir un archivo xd:</p>
+        <input type="file" name="" id="">
+        
+        <p>Para adjuntar una URL</p>
+        <input type="url" name="" id="">
+
+        <p>Para ingresar una hora:</p>
+        <input type="time" name="" id="">
+
+        <p>Para ingresar un mes:</p>
+        <input type="month" name="" id="">
+
+        <p>Para ingresar un rango: </p>
+        <input type="range" min="1" max="10" name="" id="">
+
+    </form>
+    
+</body>
+</html>
