@@ -4,16 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/img/n.png">
+    <title>Nimrodel Restaurant y Pub</title>
 </head>
 <body>
 
-    
+
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="/assets/img/n.png" alt="" id="img1"></a>
+      <button class="navbar-toggler navbar-light text-bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Nuestros productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#comunicar">Comuniquemonos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#reserva">Reserva</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <h1 class="text-black-50 text-center my-5"><strong>Nimrodel Pub Restaurant</strong></h1>
+
+  <center>
+    <table>
+      <td><hr class="border border-dark border-1 opacity-100"><strong>Destacados de la semana</strong></td>
+    </table>
+  </center>
+  <br><br>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 mx-2 p-5 text-center">
+    <div class="col">
+      <div class="card h-100">
+        <img src="/assets/img/bebidas.jpg" class="imgs card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BEBIDAS</h5>
+          <p class="card-text">Lorem ipsum, andae optio ea explicabo non voluptatum eaque.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/assets/img/tablas.jpg" class="imgs card-img-top" alt="..." width="100px">
+        <div class="card-body">
+          <h5 class="card-title">TABLAS</h5>
+          <p class="card-text"> Lorem ipsum, andae optio ea explicabo non voluptatum eaque. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/assets/img/shop.jpeg" class="imgs card-img-top" alt="..." width="100px">
+        <div class="card-body">
+          <h5 class="card-title">SHOP CERVEZA</h5>
+          <p class="card-text">Lorem ipsum, andae optio ea explicabo non voluptatum eaque.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- inicio de los formularios   -->
+
+  <center> 
+  <div class="formulario d-lg-block d-xl-block d-sm-none d-md-none d-none" id="form1">
+    <h3 id="comunicar">Comuniquemonos</h3>
+    <form action="" method="get">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="María Vargas" required>
+
+        <br>
+        <label for="correo"><br>Correo</label>
+        <input type="email" name="correo" id="correo" placeholder="mariavargas@correo.com" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required>
+
+        <br>
+        <label for="telefono"><br>Telefono</label>
+        <input type="text" name="telefono" id="telefono" placeholder="(xxx) xxxx-xxxx" required>
+
+        <br>
+        <label for="motivo"><br>Motivo</label>
+        <input type="text" name="motivo" id="motivo" required>
+
+        <br>
+        <br>
+        <textarea name="motivo" id="motivo" cols="35" rows="15" placeholder="Escriba un comentario. "></textarea>
+
+        <p>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
+
+</div>
+
+<br><br>
+
+<div class="formulario d-lg-block d-xl-block d-sm-none d-md-none d-none" id="form2">
+    <h3 id="reserva">Reserva</h3>
+
+    <form action="" method="get" id="color2">
+        <label for="nombre2">Nombre</label>
+        <input type="text" name="nombre2" id="nombre2" placeholder="xxx xxxxx" required>
+
+        <br>
+        <label for="correo"><br>Correo</label>
+        <input type="email" name="correo" id="correo" placeholder="xxx@xxx.xx" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required>
+
+        <br>
+        <label for="telefono"><br>Telefono</label>
+        <input type="text" name="telefono" id="telefono" placeholder="(xxx) xxxx-xxxx" required>
+
+        <br>
+        <label for="fecha"><br>Fecha</label>
+        <input type="date" name="fecha" id="fecha">
+
+        <br>
+        <label for="hora"><br>Hora</label>
+        <input type="time" name="hora" id="hora">
+
+        <br>
+        <label for="cantidad"><br>Cantidad de asistentes</label>
+        <input type="number" name="cantidad" id="cantidad">
+
+        <p>
+            <button type="submit">Reservar</button>
+        </p>
+
+    </form>
+</div>
+</center>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <div class="card-footer text-center my-5">
+    <p>Todos los derechos reservados <strong>&reg;</strong></p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
     
 </body>
 </html>
