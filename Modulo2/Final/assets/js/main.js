@@ -1,10 +1,11 @@
 // API de studio Ghibli
 
-$(document).ready(function () {
-    
-    var chiste = "";
-    fetch('https://studio-ghibli-films-api.herokuapp.com/Arrietty')
+
+fetch('https://digimon-api.vercel.app/api/digimon')
     .then((response) => response.json())
-    .then((json) => console.log(json));
-    
-});
+    .then((data) => {
+        nombre = data.name,
+        imagen = data.img,
+        nivel = data.level
+    } 
+    );
