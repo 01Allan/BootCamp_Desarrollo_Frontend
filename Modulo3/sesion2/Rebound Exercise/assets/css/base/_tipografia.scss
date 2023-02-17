@@ -1,0 +1,36 @@
+.navegacion {
+    &__nombre {
+        font: verdana;
+        font-size: 20px x-large;
+        font-weight: bold;
+    }
+
+    &__item2, &__item3 {
+        font-style: verdana;
+        font-weight: regular;
+        font-size: 18px large;
+    }
+}
+
+.titulo {
+    &__item--letra {
+        font-style: verdana;
+        font-weight: bold;
+        font-size: 20px xx-large;
+        margin: 3% 6%;
+    }
+}
+
+.foot {
+    &__derechos {
+        font-style: verdana;
+        font-weight: normal;
+        font-size: 12px small;
+        margin: 1% 0% 0% 6%;
+
+    }
+}
+
+.compra__boton {
+    font-weight: bold;
+}

@@ -1,0 +1,275 @@
+header {
+    background-image: url("/DRILLING CUE 4/MATERIAL COMPLEMENTARIO/fondo.jpg");
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+}
+
+li {
+    color: rgb(194, 186, 186);
+}
+
+td {
+    text-align: center;
+}
+
+#bebidas{
+    text-align: center;
+}
+
+#tablas{
+    text-align: center;
+}
+
+#shop{
+    text-align: center;
+}
+
+footer {
+    background-image: url("/DRILLING CUE 4/MATERIAL COMPLEMENTARIO/fondo.jpg");
+}
+
+/*Pantalla pequeña */
+@media(max-width:576px){
+    .col-sm-12{width: 100%;}
+    .col-sm-11{width: 91.66666667%;}
+    .col-sm-10{width: 83.33333334%;}
+    .col-sm-9{width: 75%;}
+    .col-sm-8{width: 66.66666667%;}
+    .col-sm-7{width: 58.33333334%;}
+    .col-sm-6{width: 50%;}
+    .col-sm-5{width: 41.66666667%;}
+    .col-sm-4{width: 33.33333334%;}
+    .col-sm-3{width: 25%;}
+    .col-sm-2{width: 16.66666667%;}
+    .col-sm-1{width: 8.333333334%;}
+
+    header {
+        background-size: 70vw;
+        background-color: black;
+        background-position: top center left;
+        background-repeat: no-repeat;
+    }
+
+    li {
+        font-size: 2vw;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    table {
+        text-align: center;
+    }
+
+    #bebidas{
+        width: 100%;
+        height: 10em;
+    }
+    
+    #tablas{
+        width: 100%;
+        height: 10em;
+    }
+    
+    #shop{
+        width: 100%;
+        height: 10em;
+    }
+
+    #lorem1, #lorem2, #lorem3 {
+        text-align: center;
+        
+    }
+
+    #grande1, #grande2 {
+        display: none;
+    }
+
+    .formulario {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+        color: rgb(194, 186, 186);
+        padding: 20vw;
+    }
+
+}
+
+
+/*Pantalla mediana */
+@media(min-width:577px) and (max-width:992px){
+    .col-md-12{width: 100%;}
+    .col-md-11{width: 91.66666667%;}
+    .col-md-10{width: 83.33333334%;}
+    .col-md-9{width: 75%;}
+    .col-md-8{width: 66.66666667%;}
+    .col-md-7{width: 58.33333334%;}
+    .col-md-6{width: 50%;}
+    .col-md-5{width: 41.66666667%;}
+    .col-md-4{width: 33.33333334%;}
+    .col-md-3{width: 25%;}
+    .col-md-2{width: 16.66666667%;}
+    .col-md-1{width: 8.333333334%;}
+
+    header {
+        background-size: 55vw;
+        /*background-color: black;*/
+        background-repeat: repeat-x;
+        background-position: left top;
+        size: 10em;
+    }
+
+    li {
+        font-size: 2vw;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    #bebidas{
+        width: 75%;
+        height: 15em;
+    }
+    
+    #tablas{
+        width: 75%;
+        height: 15em;
+    }
+    
+    #shop{
+        width: 75%;
+        height: 15em;
+    }
+
+    #lorem1, #lorem2, #lorem3 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    #grande1, #grande2 {
+        display: none;
+    }
+
+
+    .formulario {
+        display: none;
+    }
+
+
+    footer {
+        background-size: 120em;
+        background-repeat: repeat-x;
+        background-position: top;
+        text-align: center;
+        color: rgb(194, 186, 186);
+        padding: 100px;
+    }
+}
+
+
+/*Pantalla grande */
+@media(min-width:993px){
+    .col-lg-12{width: 100%;}
+    .col-lg-11{width: 91.66666667%;}
+    .col-lg-10{width: 83.33333334%;}
+    .col-lg-9{width: 75%;}
+    .col-lg-8{width: 66.66666667%;}
+    .col-lg-7{width: 58.33333334%;}
+    .col-lg-6{width: 50%;}
+    .col-lg-5{width: 41.66666667%;}
+    .col-lg-4{width: 33.33333334%;}
+    .col-lg-3{width: 25%;}
+    .col-lg-2{width: 16.66666667%;}
+    .col-lg-1{width: 8.333333334%;}
+
+
+    header {
+        background-size: 45vw;
+        /*background-color: black;*/
+        background-repeat: repeat-x;
+        background-position: left top;
+        size: 10em;
+    }
+
+    li {
+        font-size: 2vw;
+    }
+
+    td {
+        font-size: 2vw;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    img {
+        display: inline-block;
+    }
+
+    #bebidas{
+        width: 75%;
+        height: 7em;
+        display: inline-block;
+    }
+    
+    #tablas{
+        width: 75%;
+        height: 7em;
+        display: inline-block;
+    }
+    
+    #shop{
+        width: 75%;
+        height: 15em;
+    }
+
+    #lorem2 {
+        display: none;
+    }
+
+    #lorem3 {
+        text-align: center;
+    }
+
+    h3, label {
+        color: white;
+    }
+
+    .formulario {
+        text-align: center;
+        background-color: #070707;
+        width: 35%;
+        height: 100%;
+        padding: 17px;
+        border-radius: 10px;
+    }
+
+
+    footer {
+        background-size: 75em;
+        background-repeat: repeat-x;
+        background-position: top;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgb(194, 186, 186);
+        padding: 100px;
+    }
+
+    #nolarge {
+        display: none;
+    }
+}
+

@@ -1,0 +1,22 @@
+.carta {
+
+    &__boton {
+        margin: 0% 0% 3% 0%;
+        background-color: #42fae0;
+    }
+}
+
+.contactar {
+
+    &__boton {
+        margin-bottom: 1%;
+        background-color: #42fae0;
+        border-radius: 20px;
+    }
+}
+
+.carrusel {
+    &__boton--icon {
+        border-radius: 100%;
+    }
+}

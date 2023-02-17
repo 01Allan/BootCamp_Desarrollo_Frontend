@@ -1,0 +1,41 @@
+.miinfo{
+    border-style: solid;
+    margin-top: 2%;
+    width: 90%;
+    height: 90%;
+    display: grid;
+    place-items: center;
+    margin-left: 5%;
+}
+
+.portafolio {
+    width: 35%;
+    margin-left: 32.5%;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+
+#img1 {
+    width: 25%;
+    margin-top: 5%;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: white;
+}
+
+#tec {
+    width: 8%;
+    margin-bottom: 5%;
+
+}
+
+.card-footer {
+    width: auto;
+    height: 100%;
+}
+
+#imgf {
+    width: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
