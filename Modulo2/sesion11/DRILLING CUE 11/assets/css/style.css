@@ -1,0 +1,37 @@
+.barra {
+    background-color: fuchsia;
+    margin-bottom: 3%;
+}
+
+.barra__navegacion {
+    margin-left: 2%;
+}
+
+.barra__studio {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: floralwhite;
+}
+
+.tarjeta__info {
+    width: 60%;
+    height: 30%;
+    margin-left:20%;
+    background-color: rgb(255, 216, 255);
+}
+
+.tarjeta__img {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+#tarjeta {
+    width: 60%;
+    height: 20%;
+    margin-left:20%;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: rgb(0, 204, 255);
+}
