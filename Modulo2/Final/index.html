@@ -11,9 +11,68 @@
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
-    <title>Drilling cue 11</title>
+    <title>Evaluacion Final</title>
 </head>
 <body>
+
+    <!-- barra de navegacion  -->
+
+    <header class="barranav">
+        <nav class="navegacion navbar">
+            <div class="navegacion__contenido container-fluid">
+                <a class="navegacion__title navbar-brand">
+                    <img src="assets/img/dicon.png" class="navegacion__img" alt="Bootstrap" width="40" height="40">
+                    Digimon API
+                </a>
+                <form class="form d-flex" role="search">
+                    <label class="form__title" for="">Busca un Digimon</label>
+                    <input class="form__input form-control me-2" id="buscar" type="text" placeholder="Digibusqueda" aria-label="Search">
+                    <input class="form__boton btn btn-outline-success" type="button" value="buscar" id="boton">
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Digimon seleccionado con sus caracteristicas -->
+
+    <div class="informacion">
+
+        <h3 class="informacion__title text-center" >Seleccione el Digimon en la lista</h3>
+        <p class="minitext card-text text-center">
+            <small class="">
+                Si se sabe el nombre del Digimon, busque directamente en la barra de <i>Digibusqueda.</i> 
+            </small>
+        </p>
+
+        <!-- lista desplegable con los nombres de los digimon  -->
+        <div class="desplegar dropdown text-center">
+            
+            <select name="listar" class="desplegar__menu btn btn-primary" id="menu">
+                <option value="">Seleccionar</option>
+            </select>
+
+        </div>
+
+        <div class="cartas">
+
+            <div class="carta0 card my-3" id="cartaImg">
+            </div>
+
+            <div class="carta1 card text-center my-2 w-75">
+                <div class="carta1__nombre card-body" id="pnombre">
+                    <p class="carta1__nombre--style"><strong>Nombre:</strong></p>
+                </div>
+            </div>
+    
+            <div class="carta2 card text-center w-75">
+                <div class="carta2__nivel card-body" id="pnivel">
+                    <p class="carta2__nivel--style"><strong>Nivel:</strong></p>
+                </div>
+            </div>
+        </div> 
+
+    </div>
+    
     
     
 
