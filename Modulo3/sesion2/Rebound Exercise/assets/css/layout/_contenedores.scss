@@ -1,0 +1,38 @@
+body {
+    background-color: #fdc764;
+}
+
+.contenedor {
+
+    .navegacion {
+        width: 100%;
+    }
+    
+    .navbar {
+        background-color: #dea350;
+    }
+
+}
+
+.titulo {
+    &__item--letra {
+        font-style: verdana;
+        font-weight: bold;
+        font-size: 20px xx-large;
+        margin: 3% 6%;
+    }
+}
+
+.foot {
+
+    background-color: #dea350;
+
+    &__derechos {
+        margin-top: 3%;
+    }
+
+    &__redes {
+        margin-top: 1%;
+    }
+
+}

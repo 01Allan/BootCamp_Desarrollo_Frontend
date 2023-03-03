@@ -1,0 +1,10 @@
+@import "layout/contenedores.scss";
+@import "base/tipografia.scss";
+@import "components/botones.scss";
+@import "layout/navegacion.scss";
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,95 @@
+body {
+  background-color: #fdc764;
+}
+
+.contenedor .navegacion {
+  width: 100%;
+}
+.contenedor .navbar {
+  background-color: #dea350;
+}
+
+.titulo__item--letra {
+  font-style: verdana;
+  font-weight: bold;
+  font-size: 20px xx-large;
+  margin: 3% 6%;
+}
+
+.foot {
+  background-color: #dea350;
+}
+.foot__derechos {
+  margin-top: 3%;
+}
+.foot__redes {
+  margin-top: 1%;
+}
+
+.carrusel {
+  width: 100%;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 0%;
+}
+
+.compra {
+  border-radius: 10%;
+  background-color: blueviolet;
+}
+.compra__img {
+  width: 70%;
+  border-radius: 10%;
+  height: 100px;
+  margin-left: 14%;
+  margin-top: 5%;
+}
+
+.compra__boton {
+  background-color: rgb(255, 104, 104);
+  color: black;
+}
+
+.control__boton {
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.651);
+  margin-bottom: 0%;
+}
+
+.navegacion__nombre {
+  font: verdana;
+  font-size: 20px x-large;
+  font-weight: bold;
+}
+.navegacion__item2, .navegacion__item3 {
+  font-style: verdana;
+  font-weight: regular;
+  font-size: 18px large;
+}
+
+.titulo__item--letra {
+  font-style: verdana;
+  font-weight: bold;
+  font-size: 20px xx-large;
+  margin: 3% 6%;
+}
+
+.foot__derechos {
+  font-style: verdana;
+  font-weight: normal;
+  font-size: 12px small;
+  margin: 1% 0% 0% 6%;
+}
+
+.compra__boton {
+  font-weight: bold;
+}
+
+.ofertas {
+  width: 80%;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,110 @@
+body {
+  background-color: #ffd5fb;
+}
+
+.header {
+  background-color: #ff68f1;
+}
+.header navegacion {
+  width: 100%;
+}
+
+.contenedor {
+  background-color: rgba(247, 190, 230, 0.952);
+  margin: 5%;
+  height: 100%;
+  padding: 5%;
+  border-radius: 10px;
+}
+.contenedor__form {
+  width: 70%;
+  margin: 3% 0% 3% 15%;
+  padding: 3%;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.foot {
+  background-color: #ff68f1;
+}
+.foot__contenido {
+  width: 100%;
+  color: wheat;
+}
+
+.carrusel {
+  width: 90%;
+  margin: 2% 0% 2% 5%;
+}
+
+.carta__boton {
+  margin: 0% 0% 3% 0%;
+  background-color: #42fae0;
+}
+
+.contactar__boton {
+  margin-bottom: 1%;
+  background-color: #42fae0;
+  border-radius: 20px;
+}
+
+.carrusel__boton--icon {
+  border-radius: 100%;
+}
+
+.contactar__boton {
+  font-family: "Courier New", Courier, "Lucida Sans", "Lucida Sans Regular", monospace;
+  font-weight: bold;
+}
+
+.navegacion__nombre {
+  font-family: sans-serif, monospace;
+  font-weight: bold;
+  color: wheat;
+}
+.navegacion__item {
+  font-family: sans-serif, monospace;
+  font-weight: bold;
+}
+
+.titulo {
+  margin: 5% 0% 3% 0%;
+  font-family: "Courier New", sans-serif, monospace;
+  font-weight: bold;
+}
+
+.paquetes1 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.destinos1 {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.carta {
+  background-color: rgba(247, 190, 230, 0.952);
+  border-color: rgb(0, 195, 255);
+}
+.carta__img {
+  width: 80%;
+  height: 20%;
+  margin: 3% 0% 0% 10%;
+  border-radius: 10px;
+}
+.carta__cuerpo {
+  height: 100%;
+}
+
+.carta__img--francia {
+  width: 70%;
+  margin: 3% 0% 0% 15%;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

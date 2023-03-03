@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/MATERIAL COMPLEMENTARIO/n.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>NIMRODEL Restaurant y Pub</title>
+</head>
+
+<body>
+    <header>
+        <img src="/assets/MATERIAL COMPLEMENTARIO/n.png" alt="" height="50cm" width="50cm" id="n">
+        <ul>
+            <li>Nuestros productos</li>
+            <li>Sobre nosotros</li>
+            <li><a href="#comunicar">Comuniquemonos</a></li>
+            <li><a href="#reserva">Reserva</a></li>
+        </ul>
+    </header>
+
+    <h1>Nimrodel Pub Restaurant</h1>
+
+    <center>
+        <table>
+            <td><hr>Destacados de la semana</td>
+        </table>
+    </center>
+
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="img1 row-lg-1 row-sm-1 row-md-1" id="lorem1">
+        
+            <div id="nolarge">
+                <img src="/assets/MATERIAL COMPLEMENTARIO/bebidas.jpg" alt="" id="bebidas">
+                <br>
+                <p id="texto1"><strong>GASEOSAS</strong> <br> Lorem ipsum, andae optio ea explicabo non voluptatum eaque</p>
+                <p> <br></p>
+            </div>
+    
+            <!--
+                #coment 
+            <table>
+                <td id="grande1">
+                    <img src="/assets/MATERIAL COMPLEMENTARIO/bebidas.jpg" alt="" id="bebidas">
+                    <br>
+                    <p id="texto1"><strong>GASEOSAS</strong> <br> Lorem ipsum, andae optio ea explicabo non voluptatum eaque</p>
+                    <p> <br></p>
+        
+                </td>
+        
+                <td id="grande2">
+                    <img src="/assets/MATERIAL COMPLEMENTARIO/tablas.jpg" alt="" id="tablas">
+                    <br>
+                    <p id="texto2"><strong>TABLAS</strong> <br> Lorem ipsum, andae optio ea explicabo non voluptatum eaque</p>
+                    <p> <br></p>
+                </td>
+            </table>
+    
+            -->
+        </div>
+    
+        <div class="img2 row-lg-1 row-sm-1 row-md-1" id="lorem2">
+            <img src="/assets/MATERIAL COMPLEMENTARIO/tablas.jpg" alt="" id="tablas">
+            <br>
+            <p id="texto2"><strong>TABLAS</strong> <br> Lorem ipsum, andae optio ea explicabo non voluptatum eaque</p>
+            <p> <br></p>        
+        </div>
+    
+        <div class="img3 row-lg-1 row-sm-1 rwo-md-1" id="lorem3">
+            <img src="/assets/MATERIAL COMPLEMENTARIO/shop.jpeg" alt="" id="shop">
+            <br>
+            <p><strong>SHOP CERVEZAS</strong> <br> Lorem ipsum, andae optio ea explicabo non voluptatum eaque</p>
+            <p><br></p>
+        </div>
+    
+    </div>
+
+    <!--Inicio de los formularios-->
+    <center>
+    <div class="formulario" id="form1">
+        <h3 id="comunicar">Comuniquemonos</h3>
+        <form action="" method="get">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="María Vargas" required>
+
+            <br>
+            <label for="correo"><br>Correo</label>
+            <input type="email" name="correo" id="correo" placeholder="mariavargas@correo.com" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required>
+
+            <br>
+            <label for="telefono"><br>Telefono</label>
+            <input type="text" name="telefono" id="telefono" placeholder="(xxx) xxxx-xxxx" required>
+
+            <br>
+            <label for="motivo"><br>Motivo</label>
+            <input type="text" name="motivo" id="motivo" required>
+
+            <br>
+            <br>
+            <textarea name="motivo" id="motivo" cols="35" rows="15" placeholder="Escriba un comentario. "></textarea>
+
+            <p>
+                <button type="submit">Enviar</button>
+            </p>
+        </form>
+
+    </div>
+
+    <br><br>
+    <div class="formulario" id="form2">
+        <h3 id="reserva">Reserva</h3>
+
+        <form action="" method="get" id="color2">
+            <label for="nombre2">Nombre</label>
+            <input type="text" name="nombre2" id="nombre2" placeholder="xxx xxxxx" required>
+
+            <br>
+            <label for="correo"><br>Correo</label>
+            <input type="email" name="correo" id="correo" placeholder="xxx@xxx.xx" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required>
+
+            <br>
+            <label for="telefono"><br>Telefono</label>
+            <input type="text" name="telefono" id="telefono" placeholder="(xxx) xxxx-xxxx" required>
+
+            <br>
+            <label for="fecha"><br>Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+
+            <br>
+            <label for="hora"><br>Hora</label>
+            <input type="time" name="hora" id="hora">
+
+            <br>
+            <label for="cantidad"><br>Cantidad de asistentes</label>
+            <input type="number" name="cantidad" id="cantidad">
+
+            <p>
+                <button type="submit">Reservar</button>
+            </p>
+
+        </form>
+    </div>
+    </center>
+
+    <!--Pie de página-->
+    <br>
+    <footer>
+        <p>Todos los derechos reservados <strong>&reg;</strong></p>
+    </footer>
+
+</body>
+</html>
