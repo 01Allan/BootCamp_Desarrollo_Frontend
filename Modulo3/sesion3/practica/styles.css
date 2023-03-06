@@ -1,0 +1,25 @@
+.caj {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+}
+
+.caj1 {
+  left: 0;
+  top: s0;
+  background-color: blueviolet;
+  z-index: -2;
+}
+
+.caj2 {
+  left: 50px;
+  top: 10px;
+  background-color: aquamarine;
+  z-index: -1;
+}
+
+.h1 {
+  z-index: 1;
+}
+
+/*# sourceMappingURL=styles.css.map */

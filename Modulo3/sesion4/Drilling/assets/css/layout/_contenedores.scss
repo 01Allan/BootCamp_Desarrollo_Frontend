@@ -1,0 +1,39 @@
+
+
+.todo { 
+    background-color: rgb(222, 222, 243);
+}
+
+.header {
+    background-color: blue;
+}
+
+.noticia {
+    margin: 3% 0% 3% 20%;
+    width: 60%;
+
+    &__contenido {
+        background-color: rgba(0, 0, 0, 0.493);
+        padding: 3%;
+        text-align: center; 
+    }
+
+
+}
+
+.noticias {
+    margin: 3% 0% 1em 3%;
+    width: 45%;
+    display: inline-block;
+}
+
+.noticias__title {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+
+.foot {
+    padding: 3%;
+    background-color: blue;
+}   

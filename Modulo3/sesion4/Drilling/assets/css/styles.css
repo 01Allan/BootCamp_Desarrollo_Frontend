@@ -1,0 +1,69 @@
+.todo {
+  background-color: rgb(222, 222, 243);
+}
+
+.header {
+  background-color: blue;
+}
+
+.noticia {
+  margin: 3% 0% 3% 20%;
+  width: 60%;
+}
+.noticia__contenido {
+  background-color: rgba(0, 0, 0, 0.493);
+  padding: 3%;
+  text-align: center;
+}
+
+.noticias {
+  margin: 3% 0% 1em 3%;
+  width: 45%;
+  display: inline-block;
+}
+
+.noticias__title {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+
+.foot {
+  padding: 3%;
+  background-color: blue;
+}
+
+.navegation__title {
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.noticia__title--main {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: bold;
+}
+.noticia__text--principal {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+}
+
+button {
+  border: 29%;
+  border-color: black;
+  text-align: center;
+}
+
+.navegacion__title {
+  font-weight: bold;
+}
+.navegacion__slo {
+  font-weight: 500;
+}
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=styles.css.map */
