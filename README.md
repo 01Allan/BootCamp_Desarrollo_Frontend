@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Bootcamp de FrontEnd:
 
 * En este repositorio iré subiendo todos los trabajos que deban realizarse en el bootcamp.
@@ -28,4 +28,4 @@ Tecnologias aprendidas hasta el momentos:
 * Bootstrap 
 * Git & Github
 
->>>>>>> 59db255 (APIs)
+
