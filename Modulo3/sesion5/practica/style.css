@@ -1,0 +1,43 @@
+/* Dispositivos extra pequeños (teléfonos, 600px y menos) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* Dispositivos pequeños (tablets verticales y teléfonos grandes,
+600px y más) */
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+/* Dispositivos medianos (tablets horizontales, 768px y más) */
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* Dispositivos grandes (computadores portátiles/de escritorio, 992px
+y más) */
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* Dispositivos extra grandes (grandes computadores portátiles y de
+escritorio, 1200px y más) */
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: orange;
+    }
+}
+
+

@@ -1,0 +1,18 @@
+.nav {
+    border: 2px solid black;
+    padding: 50px 50%;
+}
+
+img {
+    margin-top: 1%;
+    width: 22%;
+    display: inline-block;
+}
+
+.main-section {
+    border: 2px solid black;
+    display: inline-block;
+    padding-top: 453.078px;
+    padding-right: 74%;
+    margin-left: 1%;
+}

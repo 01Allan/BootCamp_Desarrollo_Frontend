@@ -1,0 +1,87 @@
+.columna1,
+.columna2,
+.columna3, 
+.columna4, 
+.columna5,
+.container-inner {
+    height: 100px;
+    width: 100%;
+}
+
+.columna1 {
+    background-color: antiquewhite;
+}
+
+.columna2 {
+    background-color: aqua;
+}
+
+.columna3 {
+    background-color: blueviolet;
+}
+
+.columna4 {
+    background-color: lightsalmon;
+}
+
+.columna5 {
+    background-color: palevioletred;
+}
+
+
+/* diseño Layout Shifter*/
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    
+}
+
+/* Dispositivos extra pequeños (teléfonos, 600px y menos) */
+@media (min-width: 600px) {
+    .columna1,
+    .columna2 {
+        width: 20%;
+        height: 300px;
+    }
+
+    .container-inner {
+        width: 60%;
+    }
+}
+
+/* Dispositivos pequeños (tablets verticales y teléfonos grandes,
+600px y más) */
+
+@media (min-width: 800px) {
+
+    .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Dispositivos medianos (tablets horizontales, 768px y más) */
+
+@media only screen and (min-width: 768px) {
+ 
+}
+
+/* Dispositivos grandes (computadores portátiles/de escritorio, 992px
+y más) */
+
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Dispositivos extra grandes (grandes computadores portátiles y de
+escritorio, 1200px y más) */
+
+@media only screen and (min-width: 1200px) {
+ 
+}
+
+
