@@ -1,0 +1,29 @@
+.navegacion {
+    margin-left: 1%;
+    &__item {
+        // background-color: aliceblue;
+        color: cornsilk;
+        width: 24%;
+        padding: 1%;
+        display: flex;
+        display: inline-block;
+        text-align: center;
+        
+        a {
+            text-decoration: none;
+            color: cornsilk;
+        }
+
+        @media (max-width: $breakpoint-movil) {
+            width: 23%;
+            font-size: x-small;
+        }
+    }
+
+    &__item--name {
+
+        @media (max-width: $breakpoint-movil) {
+            font-size: x-small;
+        }
+    }
+}

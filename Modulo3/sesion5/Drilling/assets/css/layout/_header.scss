@@ -1,0 +1,23 @@
+header {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(245, 245, 245, 0.15);
+
+    @media (max-width: $breakpoint-movil) {
+        height: 30px;
+    }
+
+    @media (min-width: $breakpoint-movil) and (max-width: $breakpoint-tablet) {
+        height: 40px;
+    }
+
+    @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-laptop) {
+        height: 45px;
+    }
+    
+    @media (min-width: $breakpoint-laptop) and (max-width: $breakpoint-lx) {
+        height: 50px;
+    }
+
+}
+
