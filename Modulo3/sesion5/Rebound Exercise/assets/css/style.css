@@ -205,6 +205,16 @@ header {
     display: none;
   }
 }
+.subir-file {
+  border: 1px solid;
+  display: inline-block;
+  cursor: pointer;
+}
+
+input[type=file] {
+  display: none;
+}
+
 @media (max-width: 320px) {
   .timeline {
     width: 90%;
