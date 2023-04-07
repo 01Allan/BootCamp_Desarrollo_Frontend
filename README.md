@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+>>>>>>> 73e1801ab2eee0ae2c3f4392ba7b17439e9a5945
+=======
 >>>>>>> 73e1801ab2eee0ae2c3f4392ba7b17439e9a5945
 # Bootcamp de FrontEnd:
 
@@ -33,7 +36,11 @@ Tecnologias aprendidas hasta el momentos:
 * Git & Github
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 59db255 (APIs)
+>>>>>>> 73e1801ab2eee0ae2c3f4392ba7b17439e9a5945
 =======
 >>>>>>> 59db255 (APIs)
 >>>>>>> 73e1801ab2eee0ae2c3f4392ba7b17439e9a5945
