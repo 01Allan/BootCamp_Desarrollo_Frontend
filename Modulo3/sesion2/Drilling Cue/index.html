@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebound Exercise</title>
+    <!-- cdn de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- cdn de jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!-- mi css  -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    
+    <!-- Barra de navegacion  -->
+
+    <header class="header">
+        <nav class="navegacion navbar navbar-expand-xxl navbar-expand-lg navbar-expand-md">
+            
+            <div class="container-fluid">
+                <a class="navegacion__nombre navegacion__nombre--stilo navbar-brand" href="#">
+                    Everybody can fly
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane-fill" viewBox="0 0 16 16">
+                        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Z"/>
+                    </svg>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navegacion__lista navbar-nav">
+                        <li class="navegacion__item nav-item">
+                            <a class="nav-link" aria-current="page" href="#destinos">Destinos</a>
+                        </li>
+                        <li class="navegacion__item nav-item">
+                            <a class="nav-link" href="#paquetes">Paquetes</a>
+                        </li>
+                        <li class="navegacion__item nav-item">
+                            <a class="nav-link" href="#contactar" id="contactar">contacto</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    
+    <!-- Aqui estan los destinos disponibles -->
+    <div class="titulo" id="destinos">
+        <h1>D e s t i n o s</h1>
+    </div>
+
+    <!-- para pantallas grandes - simples cards-->
+    <div class="destinos1 d-sm-none d-none d-lg-block d-md-block d-xl-block d-xxl-block">
+        <div class="paises row row-cols-1 row-cols-md-4 g-4 text-center">
+
+            <div class="paises__item col">
+                <div class="carta card text-center">
+                    <img src="assets/img/honduras.jpg" class="carta__img card-img-top" alt="...">
+                    <div class="carta__cuerpo card-body">
+                        <h6 class="carta__titulo--estilo card-title">Honduras</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="paises__item col">
+                <div class="carta card text-center">
+                    <img src="assets/img/miami.jpg" class="carta__img card-img-top" alt="...">
+                    <div class="carta__cuerpo card-body">
+                        <h6 class="carta__titulo--estilo card-title">Miami</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="paises__item col">
+                <div class="carta card text-center">
+                    <img src="assets/img/francia.jpg" class="carta__img--francia card-img-top" alt="...">
+                    <div class="carta__cuerpo card-body">
+                        <h6 class="carta__titulo--estilo card-title">Francia</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="paises__item col">
+                <div class="carta card text-center">
+                    <img src="assets/img/guatemala.jpg" class="carta__img card-img-top" alt="...">
+                    <div class="carta__cuerpo card-body">
+                        <h6 class="carta__titulo--estilo card-title">Guatemala</h6>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <!-- para pantallas pequeñas se usa slider -->
+    <div class="destinos2  d-sm-block d-block d-lg-none d-md-none d-xl-none d-xxl-none">
+
+        <div id="carouselExampleControls" class="carrusel carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                <div class="carrusel__pais carousel-item active">
+
+                    <div class="paises row row-cols-1 row-cols-md-4 g-4 text-center">
+
+                        <div class="paises__item col">
+                            <div class="carta card text-center">
+                                <img src="assets/img/honduras.jpg" class="carta__img card-img-top" alt="...">
+                                <div class="carta__cuerpo card-body">
+                                    <h6 class="carta__titulo--estilo card-title">Honduras</h6>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="carrusel__pais carousel-item">
+
+                    <div class="paises row row-cols-1 row-cols-md-4 g-4 text-center">
+            
+                        <div class="paises__item col">
+                            <div class="carta card text-center">
+                                <img src="assets/img/miami.jpg" class="carta__img card-img-top" alt="...">
+                                <div class="carta__cuerpo card-body">
+                                    <h6 class="carta__titulo--estilo card-title">Miami</h6>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="carrusel__pais carousel-item">
+                    <div class="paises row row-cols-1 row-cols-md-4 g-4 text-center">
+            
+                        <div class="paises__item col">
+                            <div class="carta card text-center">
+                                <img src="assets/img/francia.jpg" class="carta__img--francia card-img-top" alt="...">
+                                <div class="carta__cuerpo card-body">
+                                    <h6 class="carta__titulo--estilo card-title">Francia</h6>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="carrusel__pais carousel-item">
+                    <div class="paises row row-cols-1 row-cols-md-4 g-4 text-center">
+            
+                        <div class="paises__item col">
+                            <div class="carta card text-center">
+                                <img src="assets/img/guatemala.jpg" class="carta__img card-img-top" alt="...">
+                                <div class="carta__cuerpo card-body">
+                                    <h6 class="carta__titulo--estilo card-title">Guatemala</h6>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <button class="carrusel__boton carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carrusel__boton--icon carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+            </button>
+            <button class="carrusel__boton carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carrusel__boton--icon carousel-control-next-icon bg-black" aria-hidden="true"></span>
+            </button>
+        </div>
+
+    </div>
+ 
+
+    <!-- Paquetes -->
+    <div class="titulo" id="paquetes">
+        <h1>P a q u e t e s</h1>
+    </div>
+
+    <!-- Para pantallas grandes simples cards -->
+    <div class="paquetes1 d-sm-none d-none d-lg-block d-md-block d-xl-block d-xxl-block">
+        <div class="paises row row-cols-1 row-cols-md-4 g-4 text-center">
+
+            <div class="paises__item col">
+                <div class="carta card text-center">
+                    <img src="assets/img/honduras.jpg" class="carta__img card-img-top" alt="...">
+                    <div class="carta__cuerpo card-body">
+                        <h6 class="carta__titulo--estilo card-title">Honduras</h6>
+                        <p class="carta__texto card-text">
+                            Viaje a Honduras, cuyo país tiene una variedad de sitios turisticos, tales como, Copán, Islas de las bahía, entre otros. Viaje a cualquier lugar de Honduras al mismo precio. 
+                        </p>
+                        <div class="precio">
+                            <a href="#" class="carta__boton btn">Precio: $500</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="paises__item col">
+                <div class="carta card text-center">
+                    <img src="assets/img/miami.jpg" class="carta__img card-img-top" alt="...">
+                    <div class="carta__cuerpo card-body">
+                        <h6 class="carta__titulo--estilo card-title">Miami</h6>
+                        <p class="carta__texto card-text">
+                            Viaje a Miami, cuya ciudad tiene una variedad de sitios turisticos. Viaje a cualquier lugar de Miami al mismo precio. 
+                        </p>
+                        <div class="precio">
+                            <a href="#" class="carta__boton btn">Precio: $1000</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="paises__item col">
+                <div class="carta card text-center">
+                    <img src="assets/img/francia.jpg" class="carta__img--francia card-img-top" alt="...">
+                    <div class="carta__cuerpo card-body">
+                        <h6 class="carta__titulo--estilo card-title">Francia</h6>
+                        <p class="carta__texto card-text">
+                            Viaje a Francia, cuya ciudad tiene una variedad de sitios turisticos. Viaje a cualquier lugar de Francia al mismo precio. 
+                        </p>
+                        <div class="precio">
+                            <a href="#" class="carta__boton btn">Precio: $1000</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="paises__item col">
+                <div class="carta card text-center">
+                    <img src="assets/img/guatemala.jpg" class="carta__img card-img-top" alt="...">
+                    <div class="carta__cuerpo card-body">
+                        <h6 class="carta__titulo--estilo card-title">Guatemala</h6>
+                        <p class="carta__texto card-text">
+                            Viaje a Guatemala, cuya ciudad tiene una variedad de sitios turisticos, tales como Antigua Guatemal. Viaje a cualquier lugar de Guatemala al mismo precio. 
+                        </p>
+                        <div class="precio">
+                            <a href="#" class="carta__boton btn">Precio: $800</a>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+
+
+    <!-- Para pantallas pequeñas se usa slider  -->
+    <div class="paquetes2 d-sm-block d-block d-lg-none d-md-none d-xl-none d-xxl-none">
+        <div id="carouselExampleIndicators" class="carrusel carousel slide" data-bs-ride="true">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+
+                    <div class="paises row row-cols-1 row-cols-md-4 g-4 text-center">
+
+                        <div class="paises__item col">
+                            <div class="carta card text-center">
+                                <img src="assets/img/honduras.jpg" class="carta__img card-img-top" alt="...">
+                                <div class="carta__cuerpo card-body">
+                                    <h6 class="carta__titulo--estilo card-title">Honduras</h6>
+                                    <p class="carta__texto card-text">
+                                        Viaje a Honduras, cuyo país tiene una variedad de sitios turisticos, tales como, Copán, Islas de las bahía, entre otros. Viaje a cualquier lugar de Honduras al mismo precio. 
+                                    </p>
+                                    <div class="precio">
+                                        <a href="#" class="carta__boton btn">Precio: $500</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    <div class="paises row row-cols-1 row-cols-md-4 g-4 text-center">
+                        <div class="paises__item col">
+                            <div class="carta card text-center">
+                                <img src="assets/img/miami.jpg" class="carta__img card-img-top" alt="...">
+                                <div class="carta__cuerpo card-body">
+                                    <h6 class="carta__titulo--estilo card-title">Miami</h6>
+                                    <p class="carta__texto card-text">
+                                        Viaje a Miami, cuya ciudad tiene una variedad de sitios turisticos. Viaje a cualquier lugar de Miami al mismo precio. 
+                                    </p>
+                                    <div class="precio">
+                                        <a href="#" class="carta__boton btn">Precio: $1000</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="paises row row-cols-1 row-cols-md-4 g-4 text-center">
+                        <div class="paises__item col">
+                            <div class="carta card text-center">
+                                <img src="assets/img/francia.jpg" class="carta__img--francia card-img-top" alt="...">
+                                <div class="carta__cuerpo card-body">
+                                    <h6 class="carta__titulo--estilo card-title">Francia</h6>
+                                    <p class="carta__texto card-text">
+                                        Viaje a Francia, cuya ciudad tiene una variedad de sitios turisticos. Viaje a cualquier lugar de Francia al mismo precio. 
+                                    </p>
+                                    <div class="precio">
+                                        <a href="#" class="carta__boton btn">Precio: $1000</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="paises row row-cols-1 row-cols-md-4 g-4 text-center">
+                        <div class="paises__item col">
+                            <div class="carta card text-center">
+                                <img src="assets/img/guatemala.jpg" class="carta__img card-img-top" alt="...">
+                                <div class="carta__cuerpo card-body">
+                                    <h6 class="carta__titulo--estilo card-title">Guatemala</h6>
+                                    <p class="carta__texto card-text">
+                                        Viaje a Guatemala, cuya ciudad tiene una variedad de sitios turisticos, tales como Antigua Guatemal. Viaje a cualquier lugar de Guatemala al mismo precio. 
+                                    </p>
+                                    <div class="precio">
+                                        <a href="#" class="carta__boton btn">Precio: $800</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carrusel__boton carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carrusel__boton--icon carousel-control-prev-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carrusel__boton carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carrusel__boton--icon carousel-control-next-icon bg-black" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+    <!-- La parte de contactarnos  -->
+    <div class="contactar d-grid gap-2 col-6 mx-auto my-5 bg-info rounded-pill">
+        <button class="contactar__boton btn" type="button" id="contactar" onclick="comunicar()">C o n t á c t a n o s</button>
+    </div>
+
+    <!-- Formulario de contacto - este va a estar oculto y va a aparecer cuando se de click en el botón de Contáctanos. -->
+
+    <div class="contenedor d-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-none" id="cont_form">
+
+        <div class="contenedor__form">
+
+            <div class="titulo" id="paquetes">
+                <h3>Contáctanos</h3>
+            </div>
+
+            <form action="" method="get" class="formulario" id="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="formulario__label form-label">Nombre Completo</label>
+                    <input class="form-control" type="text" placeholder="Default input" aria-label="default input example" required id="form_name">
+                    <br>
+    
+                    <label for="exampleFormControlInput1" class="formulario__label form-label">Correo</label>
+                    <input type="email" class="form-control" id="form_mail" placeholder="name@example.com" required>
+                    <br>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="formulario__label form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="formulario__boton btn btn-primary" id="enviarform" onclick="enviarForm()">Enviar</button>
+            </form>
+
+        </div>
+
+    </div>
+
+    
+    <!-- Pie de pagina  -->
+
+    <footer class="foot">
+        <nav class="foot__nav navbar">
+            <div class="foot__contenido container-fluid">
+                <a class="navbar-brand text-white" href="#">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane-fill" viewBox="0 0 16 16">
+                        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Z"/>
+                    </svg>
+                    <i>Everybody can fly</i>, 2023 <strong>&reg;</strong>
+
+                </a>
+            </div>
+        </nav>
+    </footer>
+    
+    
+    <!-- mi js -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- js de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

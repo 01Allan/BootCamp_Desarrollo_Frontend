@@ -1,0 +1,91 @@
+.columna1,
+.columna2,
+.columna3 {
+    height: 200px;
+    width: 100%;
+}
+
+.container {
+    width: 200px;
+    margin-left: 200px;
+}
+
+.columna1 {
+    background-color: antiquewhite;
+    width: 200px;
+    -webkit-transition: -webkit-transform 0.3s easy-out;
+    transition: transform 0.3s easy-out;
+    -webkit-transform: translate(-200px, 0);
+    transform: translate(-200px, 0);
+    z-index: 1;    
+}
+
+.columna1.open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.columna2 {
+    background-color: aqua;
+    width: 200px;
+}
+
+.columna3 {
+    background-color: blueviolet;
+    width: 200px;
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    -webkit-transform: translate(200px, 0);
+    transform: translate(200px, 0);
+    z-index: 2;
+}
+
+
+/* diseño Layout Shifter*/
+
+
+/* Dispositivos extra pequeños (teléfonos, 600px y menos) */
+@media (min-width: 600px) {
+    .container {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        width: 800px;
+    }
+    .columna1,
+    .columna3 {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    }
+}
+
+/* Dispositivos pequeños (tablets verticales y teléfonos grandes,
+600px y más) */
+
+@media (min-width: 800px) {
+
+
+}
+
+/* Dispositivos medianos (tablets horizontales, 768px y más) */
+
+@media only screen and (min-width: 768px) {
+ 
+}
+
+/* Dispositivos grandes (computadores portátiles/de escritorio, 992px
+y más) */
+
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Dispositivos extra grandes (grandes computadores portátiles y de
+escritorio, 1200px y más) */
+
+@media only screen and (min-width: 1200px) {
+ 
+}
+
+

@@ -1,0 +1,43 @@
+.timeline {
+
+    @media (max-width: $brackpoint-sm) {
+        width: 90%;
+        // height: 450px;
+        border: 1px;
+        margin: 5%;
+        // border-style: solid;
+    }
+
+    @media (min-width: $brackpoint-sm) and (max-width: $brackpoint-md) {
+        width: 80%;
+        // height: 450px;
+        border: 1px;
+        margin: 5% 0% 5% 10%;
+        // border-style: solid;
+    }
+
+    @media (min-width: $brackpoint-md) and (max-width: $brackpoint-lg) {
+        width: 80%;
+        // height: 450px;
+        border: 1px;
+        margin: 5% 0% 5% 10%;
+        // border-style: solid;
+    }
+
+    @media (min-width: $brackpoint-lg) and (max-width: $brackpoint-xl) {
+        width: 60%;
+        // height: 450px;
+        border: 1px;
+        margin: 5% 0% 5% 20%;
+        // border-style: solid;
+    }
+
+    @media (min-width: $brackpoint-xl) {
+        width: 60%;
+        // height: 450px;
+        border: 1px;
+        margin: 5% 0% 5% 20%;
+        // border-style: solid;
+    }
+
+}

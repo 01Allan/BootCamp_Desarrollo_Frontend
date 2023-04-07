@@ -1,0 +1,74 @@
+#rojo {
+    background-color: red;
+    border-color: red;
+    border-style: solid;
+}
+
+#verde {
+    background-color: green;
+    border-color: green;
+    border-style: solid;
+}
+
+#gris {
+    background-color: grey;
+    border-color: gray;
+    border-style: solid;
+}
+
+#cafe {
+    background-color: brown;
+    border-color: brown;
+    border-style: solid;
+}
+
+#azul {
+    background-color: blue;
+    border-color: blue;
+    border-style: solid;
+}
+
+#violeta {
+    background-color: violet;
+    border-color: violet;
+    border-style: solid;
+}
+
+#rosado {
+    background-color: pink;
+    border-color: pink;
+    border-style: solid;
+}
+
+#turqueza {
+    background-color: turquoise;
+    border-color: turquoise;
+    border-style: solid;
+}
+
+#naranjo {
+    background-color: orange;
+    border-color: orange;
+    border-style: solid;
+}
+
+#purpura {
+    background-color: purple;
+    border-color: purple;
+    border-style: solid;
+}
+
+#amarillo {
+    background-color: yellow;
+    border-color: yellow;
+    border-style: solid;
+}
+
+#negro {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    color: white;
+}
+
+

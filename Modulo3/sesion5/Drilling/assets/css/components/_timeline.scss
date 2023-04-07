@@ -1,0 +1,349 @@
+.contenedor {
+    display: flex;
+}
+
+.timeline {
+
+    width: 60%;
+    // height: 700px;
+    margin: 2% 0% 2% 12%;
+    display: inline-block;
+
+    .bienvenida {
+        background-color: rgba(245, 245, 245, 0.15);
+        color: cornsilk;
+        border-radius: 10px;
+        border-color: lightgray;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .resena {
+        background-color: rgba(245, 245, 245, 0.15);
+        color: cornsilk;
+        border-radius: 10px;
+        border-color: lightgray;
+        border-style: solid;
+        border-width: 1px
+    }
+
+    .articulos {
+        background-color: rgba(245, 245, 245, 0.15);
+        text-align: center;
+        color: cornsilk;
+        border-radius: 10px;
+        border-color: lightgray;
+        border-style: solid;
+        border-width: 1px
+    }
+
+    .americas {
+
+        @media (max-width: $breakpoint-movil) {
+            background-color: rgba(245, 245, 245, 0.15);
+            margin-bottom: 4%;
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-movil) and (max-width: $breakpoint-tablet) {
+
+            width: 46%;
+            display: inline-block;
+            margin: 1%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-lx) {
+            width: 30%;
+            display: inline-block;
+            margin: 1% 0% 1% 2%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-lx) {
+            width: 30%;
+            display: inline-block;
+            margin: 1% 0% 1% 2%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+    }
+
+    .africa {
+
+        @media (max-width: $breakpoint-movil) {
+            background-color: rgba(245, 245, 245, 0.15);
+            margin-bottom: 4%;
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-movil) and (max-width: $breakpoint-tablet) {
+
+            width: 46%;
+            display: inline-block;
+            margin: 1%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-lx) {
+            width: 30%;
+            display: inline-block;
+            margin: 1% 0% 1% 2%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-lx) {
+            width: 30%;
+            display: inline-block;
+            margin: 1% 0% 1% 2%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+    }
+
+    .asia {
+
+        @media (max-width: $breakpoint-movil) {
+            background-color: rgba(245, 245, 245, 0.15);
+            margin-bottom: 4%;
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-movil) and (max-width: $breakpoint-tablet) {
+
+            width: 46%;
+            display: inline-block;
+            margin: 1%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-lx) {
+            width: 30%;
+            display: inline-block;
+            margin: 1% 0% 1% 2%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-lx) {
+            width: 30%;
+            display: inline-block;
+            margin: 1% 0% 1% 2%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+    }
+
+    .europa {
+
+        @media (max-width: $breakpoint-movil) {
+            background-color: rgba(245, 245, 245, 0.15);
+            margin-bottom: 4%;
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-movil) and (max-width: $breakpoint-tablet) {
+
+            width: 46%;
+            display: inline-block;
+            margin: 1%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-lx) {
+            width: 30%;
+            display: inline-block;
+            margin: 1% 0% 1% 2%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-lx) {
+            width: 30%;
+            display: inline-block;
+            margin: 1% 0% 1% 2%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+    }
+
+    .oceania {
+
+        @media (max-width: $breakpoint-movil) {
+            background-color: rgba(245, 245, 245, 0.15);
+            margin-bottom: 4%;
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-movil) and (max-width: $breakpoint-tablet) {
+
+            width: 46%;
+            display: inline-block;
+            margin: 1%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-lx) {
+            width: 30%;
+            display: inline-block;
+            margin: 1% 0% 1% 2%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-lx) {
+            width: 30%;
+            display: inline-block;
+            margin: 1% 0% 1% 2%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+    }
+
+    .antartida {
+
+        @media (max-width: $breakpoint-movil) {
+            background-color: rgba(245, 245, 245, 0.15);
+            margin-bottom: 4%;
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-movil) and (max-width: $breakpoint-tablet) {
+
+            width: 46%;
+            display: inline-block;
+            margin: 1%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-lx) {
+            width: 30%;
+            display: inline-block;
+            margin: 1% 0% 1% 2%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+
+        @media (min-width: $breakpoint-lx) {
+            width: 30%;
+            display: inline-block;
+            margin: 1% 0% 1% 2%;
+            background-color: rgba(245, 245, 245, 0.15);
+            color: cornsilk;
+            border-radius: 10px;
+            border-color: lightgray;
+            border-style: solid;
+            border-width: 1px
+        }
+    }
+
+    @media (max-width: $breakpoint-tablet) {
+        width: 80%;
+        // height: 700px;
+        margin: 2% 0% 2% 10%;
+        display: inline-block;
+    }
+
+
+
+}

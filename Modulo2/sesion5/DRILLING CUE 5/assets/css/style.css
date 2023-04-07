@@ -1,0 +1,46 @@
+nav {
+    background-image: url("/assets/img/fondo.jpg");
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-size: 25em;
+} 
+
+/* .navbar-toggler {
+    justify-content: end;
+} */
+
+/* .navbar-toggler {
+    margin-left: 768px;
+} */
+
+#img1 {
+    width: 10%;
+}
+
+td {
+    font-size: 23px;
+}
+
+.imgs{
+    height: 200px;
+    text-align: center;
+}
+
+.formulario {
+    text-align: center;
+    border-radius: 2%;
+    background-color: rgb(58, 53, 51);
+    width: 60%;
+    height: 60%;
+    color: white;
+}
+
+.card-footer {
+    background-image: url("/assets/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: black;
+    background-size: 100em;
+    color: rgb(194, 186, 186);
+    padding: 70px;
+}

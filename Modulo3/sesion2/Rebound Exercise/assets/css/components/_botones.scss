@@ -1,0 +1,14 @@
+.compra__boton {
+
+    background-color: rgb(255, 104, 104);
+    color: black;
+}
+
+.control {
+
+    &__boton {
+        border-radius: 100%;
+        background-color: rgba(0, 0, 0, 0.651);
+        margin-bottom: 0%;
+    }
+}

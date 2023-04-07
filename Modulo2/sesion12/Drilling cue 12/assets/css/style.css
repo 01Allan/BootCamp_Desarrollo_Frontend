@@ -1,0 +1,132 @@
+nav {
+    background-image: url("/assets/img/fondo.jpg");
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-size: 25em;
+} 
+
+/* .navbar-toggler {
+    justify-content: end;
+} */
+
+/* .navbar-toggler {
+    margin-left: 768px;
+} */
+
+#img1 {
+    width: 10%;
+}
+
+.d-block {
+    height: 600px;
+}
+
+td {
+    font-size: 23px;
+}
+
+.imgs{
+    height: 200px;
+    text-align: center;
+}
+
+
+
+/* .formulario {
+    text-align: center;
+    border-radius: 2%;
+    background-color: rgb(58, 53, 51);
+    width: 50%;
+    height: 60%;
+    color: white;
+} */
+
+.card-footer {
+    background-image: url("/assets/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: black;
+    background-size: 100em;
+    color: rgb(194, 186, 186);
+    padding: 70px;
+}
+
+/* ventanas emergentes - efectos */
+
+.popup {
+    width: 50%;
+    height: 70%;
+    position: fixed;
+    margin-top: 7%;
+    margin-bottom: 30%;
+    margin-left: 25%;
+    background-color: #050202dc;
+    top: 0;
+    display: none;
+    backdrop-filter: blur(6px);
+}
+
+.cont_popup {
+    width: 70%;
+    margin: auto;
+}
+
+.cont_popup img {
+    width: 80%;
+    height: 60%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+
+}
+
+.cont_popup p {
+    color: white;
+}
+
+.cont_popup h5 {
+    color: white;
+}
+
+.cerrar, .cierra {
+    color: white;
+    font-size: 80%;
+    justify-content: left;
+    margin-left: 2%;
+}
+
+.emergente {
+    width: 50%;
+    height: 80%; 
+    position: fixed;
+    margin-top: 5%;
+    margin-bottom: 30%;
+    margin-left: 25%;
+    background-color: #050202dc;
+    top: 0;
+    display: none;
+    backdrop-filter: blur(6px);
+}
+
+.infm1 {
+    width: 22%; 
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 39%;
+    margin-bottom: 1%;
+}
+
+.infm2 {
+    width: 57%; 
+    height: 60%;
+    margin-top: 5%;
+    margin-left: 22%;
+}
+
+.texto p {
+    font-style: italic;
+}
+
+.cierra1 {
+    width: 8%;
+}

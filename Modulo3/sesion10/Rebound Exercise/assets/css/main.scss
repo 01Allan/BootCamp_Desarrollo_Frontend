@@ -1,0 +1,39 @@
+@import "vendors/bootstrap-5.2.3/bootstrap.scss";
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+}
+
+.popup {
+    width: 30%;
+    height: 20%;
+    position: fixed;
+    margin-top: 7%;
+    margin-bottom: 30%;
+    margin-left: 35%;
+    background-color: #050202dc;
+    top: 0;
+    display: none;
+    backdrop-filter: blur(6px);
+}
+
+.cont_popup {
+    width: 70%;
+    margin: auto;
+}
+
+.cont_popup p {
+    color: white;
+}
+
+.cerrar {
+    color: white;
+    font-size: 80%;
+    justify-content: left;
+    margin-left: 2%;
+}

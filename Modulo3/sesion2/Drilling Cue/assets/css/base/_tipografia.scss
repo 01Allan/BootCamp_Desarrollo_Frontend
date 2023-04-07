@@ -1,0 +1,25 @@
+.contactar {
+    &__boton {
+        font-family:'Courier New', Courier, 'Lucida Sans', 'Lucida Sans Regular', monospace;
+        font-weight: bold;
+    }
+}
+
+.navegacion {
+    &__nombre {
+        font-family: sans-serif, monospace;
+        font-weight: bold;
+        color: wheat;
+    }
+
+    &__item {
+        font-family: sans-serif, monospace;
+        font-weight: bold;
+    }
+}
+
+.titulo {
+    margin: 5% 0% 3% 0%;
+    font-family: 'Courier New', sans-serif, monospace;
+    font-weight: bold;
+}

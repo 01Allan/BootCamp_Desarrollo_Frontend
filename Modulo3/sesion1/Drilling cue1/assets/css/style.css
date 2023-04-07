@@ -1,0 +1,69 @@
+body {
+    background-image: url('/assets/img/playa.png');
+    background-repeat: round;
+}
+
+.navigation {
+    background-color: aquamarine;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 2%;
+}
+
+.navigation__item {
+    font-size: 20px;
+    display: inline;
+    margin-right: 5%;
+}
+
+.presentacion {
+    width: 20%;
+    padding: 1%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 39%;
+    margin-bottom: 3%;
+    background-color: rgb(89, 138, 138);
+    color: white;
+}
+
+.formulario {
+    border-style: unset;
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 2%;
+    width: 30%;
+    margin-left: 33%;
+    margin-bottom: 1%;
+}
+
+
+.boton {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.boton__form {
+    background-color: rgb(58, 58, 219);
+    color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.piepagina {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.futer__item {
+    display: inline;
+    margin-right: 1%;
+}
+
+.futer__item--izq {
+    margin-right: 70%;
+}
+
+.futer__item--oc {
+    color: rgb(90, 89, 89);
+}
+

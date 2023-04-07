@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <h1>Formulario</h1>
+
+    <form action="agradecimiento.html" method="post">
+        <!--NOMBRE-->
+
+        <label for="Nombre">NOMBRE</label>
+        <br>
+        <input type="text" name="Nombre" id="Nombre" required>
+
+        <!--Dirección-->
+        <br>
+        <label for="Dirección"><br> DIRECCIÓN</label>
+        <br>
+        <input type="text" name="Dirección" id="Dirección" required>   
+        
+        <!--Especialidad-->
+        <br>
+        <label for="especialidad"><br> ESPECIALIDAD MÉDICA </label>
+        <br>
+        <input type="text" name="especialidad" list="especialidad" required>
+        <datalist id="especialidad">
+            <option value="MEDICINA INTERNA">MEDICINA INTERNA</option>
+            <option value="MEDICINA GENERAL">MEDICINA GENERAL</option>
+            <option value="TRAUMATOLOGÍA">TRAUMATOLOGÍA</option>
+            <option value="NUTRICIONISTA">NUTRICIONISTA</option>
+        </datalist>
+
+        <!--Fecha-->
+        <br>
+        <label for="fecha"><br> FECHA</label>
+        <br>
+        <input type="date" name="fecha" id="fecha" required>
+
+        <!--Hora-->
+        <br>
+        <label for="hora"><br> HORA</label>
+        <br>
+        <input type="time" name="hora" id="hora" required>
+  
+        <!--correo-->
+        <br>
+        <label for="correo"><br> CORREO</label>
+        <br>
+        <input type="email" name="correo" id="correo" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required>
+        
+        <br>
+        <p>
+            <button type="submit"> CONFIRMAR</button>
+        </p>
+        
+    </form>
+    
+</body>
+</html>

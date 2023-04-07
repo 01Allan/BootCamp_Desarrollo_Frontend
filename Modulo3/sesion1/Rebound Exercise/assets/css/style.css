@@ -1,0 +1,35 @@
+.navigation {
+    padding: 20px;
+}
+
+.navigation__item {
+    font-size: 30px;
+    display: inline;
+    margin-right: 10%;
+}
+
+.presentacion {
+    width: 50%;
+    border-style: solid;
+    text-align: center;
+    margin-left: 25%;
+
+}
+
+.formulario {
+    border-style: unset;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.futer__item {
+    display: inline;
+    margin-right: 2%;
+}
+
+.futer__item--izq {
+    margin-right: 70%;
+}
+
+

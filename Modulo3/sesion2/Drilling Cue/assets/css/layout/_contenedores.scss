@@ -1,0 +1,41 @@
+body {
+    background-color: #ffd5fb;
+}
+
+.header {
+    background-color: #ff68f1;
+    navegacion {
+        width: 100%;
+    }
+}
+
+.contenedor {
+
+    background-color: rgba(247, 190, 230, 0.952);
+    margin: 5%;
+    height: 100%;
+    padding: 5%;
+    border-radius: 10px;
+
+    &__form {
+        width: 70%;
+        margin: 3% 0% 3% 15%;
+        padding: 3%;
+        background-color: aquamarine;
+        border-radius: 10px;
+    }
+
+}
+
+.titulo {
+    text-align: center;
+}
+
+.foot {
+    background-color: #ff68f1;
+
+    &__contenido {
+        width: 100%;
+        color: wheat;
+    }
+}

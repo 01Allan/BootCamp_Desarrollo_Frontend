@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="200" height="200">
+
+    <defs>
+        <style>
+            .hexagono {
+                fill: pink;
+                stroke-width: 6px;
+                stroke: yellow;
+                transition-property: all;
+                transition-duration: 3s;
+                transition-delay: 1s;
+                transition-timing-function: cubic-bezier(0.4966, 0.3508, 0.4763, 0.3373);
+            }
+
+            .hexagono:hover {
+                stroke: black;
+                fill: greenyellow;
+                transform: translate(30px, 30px);
+            }
+
+        </style>
+    </defs>
+
+    <polygon class="hexagono" points="50 3, 100 28, 100 75, 50 100, 3 75, 3 25" />
+
+</svg>

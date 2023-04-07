@@ -1,0 +1,18 @@
+.navegation__title {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.noticia {
+    
+    &__title--main {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    &__text--principal {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+    }
+}

@@ -1,0 +1,23 @@
+.navbarr {
+    &__name--style {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+
+    &__usuario--style {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+}
+
+.foot {
+    &__item--uno {
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+
+    &__item--dos, &__item--tres {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+    }
+}
