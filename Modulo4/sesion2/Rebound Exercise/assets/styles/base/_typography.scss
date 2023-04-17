@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+// This file contains typography styles.
+// -----------------------------------------------------------------------------
+
+.contenedor {
+
+    .calculadora{
+
+        .operaciones {
+
+            button {
+                font-size: large;
+                font-weight: bold;
+            }
+        }
+        
+    }
+
+    .pantalla {
+        font-size: 25px;
+    }
+   
+
+    .others {
+            
+        .numbers {
+            button {
+                font-size: large;
+                font-weight: bold;
+            }
+        }
+
+        .igual {
+            button {
+                font-size: large;
+                font-weight: bold;
+            }
+        }
+    }
+}
