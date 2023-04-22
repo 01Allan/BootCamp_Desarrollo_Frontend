@@ -1,6 +1,80 @@
+.clima__header--contenido {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
+.clima__body .day {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.toggle .grado-c, .toggle .grado-f {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.clima__header {
+  background: url("/assets/img/clima.jpg");
+  background-size: cover;
+  opacity: 0.7;
+  width: 40rem;
+  height: 20rem;
+  margin: 10% 0 0 0;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.158);
+}
+.clima__header--contenido {
+  width: 180px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.6431372549);
+  text-align: center;
+  border-radius: 10%;
+  padding-bottom: 40px;
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.158);
+}
+.clima__body {
+  width: 40rem;
+  height: 10rem;
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.158);
+}
+.clima__body .day {
+  width: 60px;
+  height: 130px;
+  margin: 2% 0 0 0;
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.158);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: dimgrey;
+  border-radius: 10px;
+}
+
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+.toggle .on {
+  display: none;
+}
+
 body {
   margin: 0;
   padding: 0;
+  background: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */

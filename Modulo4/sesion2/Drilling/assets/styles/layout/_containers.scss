@@ -1,0 +1,53 @@
+.clima {
+    
+    &__header {
+        background: url("/assets/img/clima.jpg");
+        background-size: cover;
+        opacity: 0.7;
+        width: 40rem;
+        height: 20rem;
+        margin: 10% 0 0 0;
+        border-radius: 5px 5px 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.158);
+
+        &--contenido {
+            width: 180px;
+            height: 100px;
+            background: #ffffffa4;
+            text-align: center;
+            border-radius: 10%;
+            padding-bottom: 40px;
+            box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.158);
+        }
+    }
+
+    &__body {
+        width: 40rem;
+        height: 10rem;
+        background: #fff;
+        border-radius: 0 0 5px 5px;
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.158);
+
+        .day {
+            width: 60px;
+            height: 130px;
+            margin: 2% 0 0 0;
+            box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.158);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            color: dimgrey;
+            border-radius: 10px;
+        }
+
+    }
+
+       
+}
