@@ -1,0 +1,33 @@
+.imagen {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &--style {
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &--overlay {
+        transition: 1s;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.informacion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    &--style {
+        width: 600px;
+    }
+}

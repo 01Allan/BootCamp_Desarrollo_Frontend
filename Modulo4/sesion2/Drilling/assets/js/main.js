@@ -21,7 +21,6 @@ var escala = document.getElementById("escala");
 celsiusOn.addEventListener("click", () => {
 
     // Esta parte convierte de celcius a fahrenheit
-
     celsiusOn.style.display = "none";
     fahrenheitOn.style.display = "block";
     escala.innerText = "F";
