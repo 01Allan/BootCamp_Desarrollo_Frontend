@@ -19,6 +19,15 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    @media (max-width: 630px) {
+        &--style {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+    }
 }
 
 .informacion {
@@ -29,5 +38,12 @@
     
     &--style {
         width: 600px;
+    }
+
+
+    @media (max-width: 630px) {
+        &--style {
+            width: 80%;
+        }
     }
 }

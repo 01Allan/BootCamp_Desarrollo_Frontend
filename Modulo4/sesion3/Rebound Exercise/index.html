@@ -34,14 +34,14 @@
         <label class="pregunta__body" for="opciones">Actividades:</label>
         <select class="pregunta__select" name="opciones" id="opciones">
             <option value="uno">Trekking</option>
-            <option value="uno">Natación</option>
-            <option value="uno">Ferry</option>
+            <option value="dos">Natación</option>
+            <option value="tres">Ferry</option>
         </select>
 
     </div>
 
     <div class="imagen m-5" id="imagen">
-        <div class="imagen--style card text-bg-dark">
+        <div class="imagen--style card text-bg-dark" id="prueba">
             <img src="assets/img/senderismo.jpg" class="card-img" alt="...">
 
             <div class="imagen--overlay card-img-overlay bg-dark bg-opacity-50 d-none" id="overlay">
@@ -54,9 +54,9 @@
         </div>
     </div>
 
-    <div class="informacion">
+    <div class="informacion" id="informacion">
         <div class="informacion--style card  mb-5" >
-            <!-- <div class="card-header bg-transparent border-success">Header</div> -->
+        
             <div class="card-body">
                 <p class="card-text">
                     *Modalidad de excursionismo que consiste en recorrer a pie largas distancias o zonas determinadas. generalmente de alta montaña y poco frecuentadas por el turismo convencional.*
@@ -65,7 +65,9 @@
                 </p>
             </div>
 
-            <div class="card-footer bg-transparent border-white">Footer</div>
+            <div class="card-footer bg-transparent border-white">
+                <button type="button" class="btn btn-light">Agendar actividad</button>
+            </div>
         </div>
     </div>
 
@@ -74,5 +76,6 @@
 
     <!-- js de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>
