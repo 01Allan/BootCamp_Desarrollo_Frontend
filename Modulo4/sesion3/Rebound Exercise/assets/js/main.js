@@ -1,124 +1,40 @@
-var mostrarInfo = document.getElementById("overlay");
-var imagen = document.getElementById("imagen");
+var seleccion= document.getElementById("opciones");
+var textoDescriptor = document.getElementById("textoDescriptor");
+var tarjetaImagen = document.getElementById("overlay"); //tarjetaImagen
+var imagenes = document.getElementById("imagenes");
+var textoImagen = document.getElementById("textoImagen");
 var mostrarOver = document.getElementById("prueba");
-var informacion = document.getElementById("informacion");
-var opciones = document.getElementById("opciones");
 
-mostrarOver.addEventListener("mouseover", () => {
-    mostrarInfo.classList.remove("d-none");
-});
+function imagen2(source) { 
+    imagenes.setAttribute("src", source) 
+}
 
-mostrarOver.addEventListener("mouseout", () => {
-    mostrarInfo.classList.add("d-none");
-});
+if(seleccion.value == "trekking") {
+    imagen2("./assets/img/senderismo.jpg")
+    textoDescriptor.innerHTML = 'Modalidad de excursionismo que consiste en recorrer a pie largas distancias o zonas determinadas. generalmente de alta montaña y poco frecuentadas por el turismo convencional.'
+    textoImagen.innerHTML = `<h2>TREKKING</h2> <p><i class="bi bi-geo-alt"></i> Volcán Villarrica</p>`  
+}
 
-var defaulImg = `
-    <div class="imagen--style card text-bg-dark" id="prueba">
-        <img src="assets/img/senderismo.jpg" class="card-img" alt="...">
+seleccion.addEventListener('change', (event) => {
+    let opciones = event.target.value
 
-        <div class="imagen--overlay card-img-overlay bg-dark bg-opacity-50 d-none" id="overlay">
-            <h5 class="card-title">TREKKING</h5>
-            <p class="card-text">
-                <i class="bi bi-geo-alt"></i>
-                Volcán Villarrica
-            </p>
-        </div>
-    </div>
-`
-
-var defaulText = `
-    <div class="informacion--style card  mb-5" >
-        <div class="card-body">
-            <p class="card-text">
-                *Modalidad de excursionismo que consiste en recorrer a pie largas distancias o zonas determinadas. generalmente de alta montaña y poco frecuentadas por el turismo convencional.*
-                <br>
-                <a href="#">Conocer más</a>
-            </p>
-        </div>
-
-        <div class="card-footer bg-transparent border-white">
-            <button type="button" class="btn btn-light">Agendar actividad</button>
-        </div>
-    </div>
-`
-
-var natacionImg = `
-    <div class="imagen--style card text-bg-dark" id="prueba">
-        <img src="assets/img/natacion.jpg" class="card-img" alt="...">
-
-        <div class="imagen--overlay card-img-overlay bg-dark bg-opacity-50 d-none" id="overlay">
-            <h5 class="card-title">NATACIÓN</h5>
-            <p class="card-text">
-                <i class="bi bi-geo-alt"></i>
-                Lago Cochrane
-            </p>
-        </div>
-    </div>
-`;
-
-var natacionText = `
-    <div class="informacion--style card  mb-5" >
-        <div class="card-body">
-            <p class="card-text">
-                *Deporte  o ejercicio que consiste en nadar; en las pruebas de natación se compite en velocidad, en cualquiera de los cuatro estilos;braza, crol, espalda y mariposa.*
-                <br>
-                <a href="#">Conocer más</a>
-            </p>
-        </div>
-
-        <div class="card-footer bg-transparent border-white">
-            <button type="button" class="btn btn-light">Agendar actividad</button>
-        </div>
-    </div>
-
-`;
-
-var ferryImg = `
-    <div class="imagen--style card text-bg-dark" id="prueba">
-        <img src="assets/img/ferry.jpg" class="card-img" alt="...">
-
-        <div class="imagen--overlay card-img-overlay bg-dark bg-opacity-50 d-none" id="overlay">
-            <h5 class="card-title">FERRY</h5>
-            <p class="card-text">
-                <i class="bi bi-geo-alt"></i>
-                    Lago LLanquihue
-            </p>
-        </div>
-    </div>
-`;
-
-var ferryText = `
-    <div class="informacion--style card  mb-5" >
-        <div class="card-body">
-            <p class="card-text">
-                *Embarcación que realiza alternativamente el mismo  recorrido entre dos puntos: espcialmente la de grandes dimensiones destinada al transporte de cargas pesadas o pasajeros.*
-                <br>
-                <a href="#">Conocer más</a>
-            </p>
-        </div>
-
-        <div class="card-footer bg-transparent border-white">
-            <button type="button" class="btn btn-light">Agendar actividad</button>
-        </div>
-    </div>
-`;
-
-opciones.addEventListener("change", () => {
-    console.log(opciones.value);
-    switch (opciones.value) {
-        case 'uno':
-            imagen.innerHTML = defaulImg;
-            informacion.innerHTML = defaulText;
+    switch (opciones) {
+        case 'trekking':
+            imagen2("./assets/img/senderismo.jpg")
+            textoDescriptor.innerHTML = 'Modalidad de excursionismo que consiste en recorrer a pie largas distancias o zonas determinadas. generalmente de alta montaña y poco frecuentadas por el turismo convencional.'
+            textoImagen.innerHTML = `<h2>TREKKING</h2> <p><i class="bi bi-geo-alt"></i> Volcán Villarrica</p>`  
             break;
                 
-        case 'dos':
-            imagen.innerHTML = natacionImg;
-            informacion.innerHTML = natacionText;
+        case 'natacion':
+            imagen2("./assets/img/natacion.jpg")
+            textoDescriptor.innerHTML = 'Deporte o ejercicio que consiste en nadar; en las\n pruebas de natación se compite en velocidad, en\n cualquiera de los cuatro estilos: braza, crol, espalda y mariposa.'
+            textoImagen.innerHTML = `<h2>NATACIÓN</h2> <p><i class="bi bi-geo-alt"></i> Lago Cochrane</p>`
             break;
         
-        case 'tres':
-            imagen.innerHTML = ferryImg;
-            informacion.innerHTML = ferryText;
+        case 'ferry':
+            imagen2("./assets/img/ferry.jpg")
+            textoDescriptor.innerHTML = 'Embarcación que realiza alternativamente el\n mismo recorrido entre dos puntos;\n especialmente la de grandes dimensiones destinada al trasporte de cargas pesadas o pasajeros.'
+            textoImagen.innerHTML = `<h2>FERRY</h2> <p><i class="bi bi-geo-alt"></i> Lago Llanquihue</p>`  
             break;
                     
         default:
@@ -126,3 +42,16 @@ opciones.addEventListener("change", () => {
     }
 
 });
+
+
+tarjetaImagen.addEventListener("mouseenter", () => {
+    imagenes.setAttribute("class", "card-img opacity-25")
+    textoImagen.setAttribute("class", "card-text text-center text-light position-absolute top-50 start-50 translate-middle")
+});
+
+tarjetaImagen.addEventListener("mouseleave", () => {
+    imagenes.setAttribute("class", "card-img")
+    textoImagen.setAttribute("class", "card-text d-none text-light position-absolute top-50 start-50 translate-middle")
+});
+
+
