@@ -1,0 +1,11 @@
+{
+  "name": "drilling",
+  "version": "1.0.0",
+  "description": "Drilling cue seccion 6 M4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "allan",
+  "license": "ISC"
+}

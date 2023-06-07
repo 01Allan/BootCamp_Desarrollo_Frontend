@@ -1,0 +1,37 @@
+.contenedor {
+
+    .equipo {
+
+        &__body {
+            
+            form {
+                .botonAdd {
+                    border: 1px solid rgb(0, 140, 255);
+                    color: rgb(0, 140, 255);
+                    padding: 2%;
+                    border-radius: 5px;
+                }
+
+                .botonDel {
+                    border: 1px solid rgb(255, 0, 43);
+                    color: rgb(255, 0, 43);
+                    padding: 2%;
+                    border-radius: 5px;
+                }
+
+                .botonAdd:hover {
+                    border: 2px solid rgb(0, 81, 255);
+                    color: rgb(0, 81, 255);
+                    font-weight: bold;
+                }
+
+                .botonDel:hover {
+                    border: 2px solid rgb(255, 0, 0);
+                    color: rgb(255, 0, 0);
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+}

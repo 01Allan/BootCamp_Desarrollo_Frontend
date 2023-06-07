@@ -1,0 +1,21 @@
+section {
+  width: 100%;
+  height: 100%;
+}
+section .card {
+  border-radius: 20px;
+}
+section .card img {
+  border-radius: 20px 20px 0 0;
+}
+section .alternativa {
+  outline: none;
+  text-decoration: none;
+  color: #292929;
+  font-weight: bold;
+}
+section .alternativa:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

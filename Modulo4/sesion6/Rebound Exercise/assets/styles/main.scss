@@ -10,7 +10,7 @@
 @import "base/base", "base/fonts", "base/typography", "base/helpers";
 
 // 4. Layout-related sections
-@import "layout/header", "layout/footer";
+@import "layout/header", "layout/footer", "layout/contenedor";
 
 // 5. Components
 @import "components/button";
@@ -21,27 +21,8 @@
 // 7. Themes
 @import "themes/default";
 
-
-section {
-    width: 100%;
-    height: 100%;
-
-    .card {
-        border-radius: 20px;
-
-        img {
-            border-radius: 20px 20px 0 0;
-        }
-    }
-
-    .alternativa {
-        outline: none;
-        text-decoration: none;
-        color: #292929;
-        font-weight: bold;
-    }
-
-    .alternativa:hover {
-        cursor: pointer;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(15, 175, 0), rgb(255, 38, 0));
 }

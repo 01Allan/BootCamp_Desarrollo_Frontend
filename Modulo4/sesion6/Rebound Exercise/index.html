@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebound Exercise</title>
+
+    <link rel="stylesheet" href="assets/styles/style.css">
+    
+</head>
+<body>
+    
+    <section class="contenedor">
+
+        <div class="beber">
+            <h1 class="beber__title">
+                Elige algo para beber
+            </h1>
+
+            <p class="beber__subtitle">
+                Disfruta de nuestra clásica selección de tragos.
+            </p>
+
+            <div class="beber__select">
+                <table>
+        
+                    <tr>
+                        <td><input type="checkbox" name="producto"></td>
+                        <td id="producto">Martíni</td>
+                        <td class="precio">$ <i id="precio">2550</i></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="producto"></td>
+                        <td id="producto">Cappuccino</td>
+                        <td class="precio">$ <i id="precio">1370</i> </td>
+                        
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="producto"></td>
+                        <td id="producto">Latte</td>
+                        <td class="precio">$ <i >1350</i> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="producto"></td>
+                        <td id="producto">Mojito</td>
+                        <td class="precio">$ <i id="precio">2290</i> </td>
+                    </tr>
+                  </table>
+            </div>
+
+        </div>
+
+        <div class="menu">
+            <h1 class="menu__title">
+                Menú
+            </h1>
+
+            <p class="menu__subtitle">
+                Disfruta de la mejor cocina italiana.
+            </p>
+
+            <div class="item">
+                <input type="checkbox" name="producto">
+                <h4 class="item__title" id="producto">Insalata de riso</h4>
+
+                <div class="item__body">
+                    <p class="item__body--text">
+                        L'insalata di riso e un classico delle ricette estive. Veloce e facile de preparate l'salata di riso si puó insaporire con gil ingredienti piú vari. 
+                    </p>
+                    <img class="item__body--img" src="assets/img/riso.jpeg" alt="">
+                </div>
+
+                <h4 class="item__price">$ <i id="precio">6750</i></h4>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" name="producto">
+                <h4 class="item__title" id="producto">Insalata ai cipollotti</h4>
+
+                <div class="item__body">
+                    <p class="item__body--text">
+                        Piú delicate delle cipolle, i cipollotti sono perfetti in insalotte, sul pesco e sulla carne 
+                    </p>
+                    <img class="item__body--img" src="assets/img/cipollotti.jpeg" alt="">
+                </div>
+
+                <h4 class="item__price">$ <i id="precio">5990</i> </h4>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" name="producto">
+                <h4 class="item__title" id="producto">Insalata caprese</h4>
+
+                <div class="item__body">
+                    <p class="item__body--text">
+                        Questo platto e un culto della citta partenopea dove la mozzarella e protagonista di moltisimi platti.   
+                    </p>
+                    <img class="item__body--img" src="assets/img/caprese.jpeg" alt="">
+                </div>
+
+                <h4 class="item__price">$ <i id="precio">8250</i> </h4>
+            </div>
+        </div>
+
+        <div class="cuenta">
+            <h1 class="cuenta__title">
+                Cuenta
+            </h1>
+
+            <p class="cuenta__subtitle">
+                Esperamos que disfrute de su comida ¡Ciao!
+            </p>
+
+            <table>
+                <tr id="probar">
+                    <th>Item</th>
+                    <th>Precio</th>
+                </tr>
+
+                <tr class="cuenta__adds" id="cuentaAdds">
+    
+                </tr>
+               
+                <tr>
+                    <td class="total"><strong>Total</strong></td>
+                    <th class="precio total--price" id="total-price"></th>
+                </tr>
+              </table>
+
+        </div>
+
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

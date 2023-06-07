@@ -1,0 +1,36 @@
+.contenedor {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .equipo {
+        width: 70%;
+        height: auto;
+        background-color: #fff;
+        margin: 5% 0 0 0;
+        padding: 2% 0;
+
+        &__header {
+            text-align: center;
+        }
+
+        &__body {
+            
+            padding: 2%;
+            text-align: center;
+            form {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                
+                input {
+                    padding: 2%;
+                    font-style: oblique;
+                    color: rgb(53, 53, 53);
+                }
+            }
+        }
+    }
+
+
+}
