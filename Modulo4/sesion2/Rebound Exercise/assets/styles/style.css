@@ -1,0 +1,187 @@
+.contenedor .calculadora .operaciones button {
+  font-size: large;
+  font-weight: bold;
+}
+.contenedor .pantalla {
+  font-size: 25px;
+}
+.contenedor .others .numbers button {
+  font-size: large;
+  font-weight: bold;
+}
+.contenedor .others .igual button {
+  font-size: large;
+  font-weight: bold;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor .calculadora {
+  width: 500px;
+  height: 600px;
+  margin: 3% 0 0 0;
+  background: #c5c0c0;
+  box-shadow: 0px 0px 24px 0px rgb(0, 0, 0);
+  -webkit-box-shadow: 0px 0px 24px 0px rgb(0, 0, 0);
+  -moz-box-shadow: 0px 0px 24px 0px rgb(0, 0, 0);
+}
+.contenedor .calculadora .pantalla {
+  height: 80px;
+  background-color: #292929;
+  color: #fff;
+  padding: 2%;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contenedor .calculadora .pantalla h1 {
+  margin: 5%;
+}
+.contenedor .calculadora .others {
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor .calculadora .others .numbers {
+  margin: 3%;
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contenedor .calculadora .others .igual {
+  width: 100px;
+  height: 385px;
+  margin: 3% 3%;
+}
+@media (max-width: 600px) {
+  .contenedor .calculadora {
+    width: 85%;
+    height: 500px;
+    margin: 10% 0 0 0;
+  }
+  .contenedor .calculadora .others .numbers {
+    width: 350px;
+    height: 390px;
+  }
+  .contenedor .calculadora .others .igual {
+    width: 100px;
+    height: 250px;
+    margin: 3% 3%;
+  }
+}
+
+.contenedor .calculadora .others .numbers button {
+  width: 100px;
+  height: 70px;
+  background-color: #e0eaee;
+  color: #000000;
+  border: #e0eaee solid;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.contenedor .calculadora .others .numbers button:hover {
+  background-color: #a8adaf;
+  cursor: pointer;
+}
+.contenedor .calculadora .others .numbers .clear {
+  width: 100px;
+  height: 70px;
+  background-color: #ff0000;
+  color: #fff6f6;
+  border: #ff0000 solid;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.contenedor .calculadora .others .numbers .clear:hover {
+  background-color: #ce2525;
+  cursor: pointer;
+}
+.contenedor .calculadora .others .numbers .suma,
+.contenedor .calculadora .others .numbers .resta,
+.contenedor .calculadora .others .numbers .mult {
+  width: 100px;
+  height: 70px;
+  background-color: #6BC9E5;
+  color: #fff;
+  border: #6BC9E5 solid;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.contenedor .calculadora .others .numbers .suma:hover {
+  background-color: #5eb0c9;
+  cursor: pointer;
+}
+.contenedor .calculadora .others .numbers .resta:hover {
+  background-color: #5eb0c9;
+  cursor: pointer;
+}
+.contenedor .calculadora .others .numbers .mult:hover {
+  background-color: #5eb0c9;
+  cursor: pointer;
+}
+.contenedor .calculadora .others .igual .equal {
+  width: 100px;
+  height: 355px;
+  background-color: #e0eaee;
+  color: #000000;
+  border: #e0eaee solid;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-bottom: 10%;
+}
+.contenedor .calculadora .others .igual .equal:hover {
+  background-color: #a8adaf;
+  cursor: pointer;
+}
+.contenedor .calculadora .others .igual .division {
+  width: 100px;
+  height: 70px;
+  background-color: #6BC9E5;
+  color: #fff;
+  border: #6BC9E5 solid;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.contenedor .calculadora .others .igual .division:hover {
+  background-color: #5eb0c9;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .contenedor .calculadora .operaciones button {
+    width: 70px;
+  }
+  .contenedor .calculadora .others .numbers button {
+    width: 70px;
+  }
+  .contenedor .calculadora .others .numbers .clear {
+    width: 70px;
+  }
+  .contenedor .calculadora .others .numbers .suma,
+  .contenedor .calculadora .others .numbers .resta,
+  .contenedor .calculadora .others .numbers .mult {
+    width: 70px;
+  }
+  .contenedor .calculadora .others .igual .equal {
+    width: 70px;
+    height: 270px;
+  }
+  .contenedor .calculadora .others .igual .division {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(2, 126, 255);
+  background: linear-gradient(90deg, rgb(2, 126, 255) 0%, rgb(0, 112, 255) 51%, rgb(0, 185, 255) 94%);
+  background-size: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

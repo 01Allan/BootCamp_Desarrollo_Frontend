@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebound Exercise - SafeMe</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <section class="formulario">
+
+        <div class="formulario__header">
+            <h1>INSCRÍBETE</h1>
+        </div>
+
+        <div class="formulario__body">
+            <form action="">
+
+                <div class="datos">
+                    <label class="datos__label" for="nombre">Nombre</label>
+                    <br>
+                    <input type="text" name="name" id="name">
+                    <br><br>
+                </div>
+                
+                <div class="datos">
+                    <label class="datos__label" for="correo">Correo</label>
+                    <br>
+                    <input type="email" name="correo" id="correo">
+                    <br><br>
+                </div>
+                
+                <div class="datos">
+                    <label class="datos__label" for="trabajo">Trabajo</label>
+                    <br>
+                    <input type="text" name="trabajo" id="trabajo">
+                    <br><br>
+                </div>
+
+                <div class="datos">
+                    <label class="datos__label" for="telefono">Teléfono</label>
+                    <br>
+                    <input type="tel" name="telefono" id="telefono">
+                    <br><br>
+                </div>
+
+                <div class="sobreti--style">
+                    <label for="sobreti">Sobre ti</label>
+                    <br>
+                    <textarea name="sobreti" id="sobreti" cols="1" rows="1"></textarea>
+                    <br><br>
+                </div>
+
+                <button type="button" class="formulario__boton" id="boton">
+                    Enviar
+                </button>
+            </form>
+        </div>
+
+    </section>
+
+    <section class="carta">
+
+        <div class="carta__principal">
+            <img src="assets/img/user.svg" alt="" srcset="" width="100px" height="100px">
+
+            <h4 class="carta__principal--name" id="putName">Nombre</h4>
+            <h4 class="carta__principal--job" id="putJob">Trabajo</h4>
+
+        </div>
+
+        <div class="carta__datos">
+            <div class="carta__datos--header">
+                <h4>Información <hr></h4>
+            </div>
+
+            <div class="carta__datos--body">
+
+                <div class="contactos">
+                    <div>
+                        <h4>Email</h4>
+                        <p id="putMail">correo@mail.com</p>
+                    </div>
+                    
+                    <div>
+                        <h4>Phone</h4>
+                        <p id="putNumber">123456789</p>
+                    </div>
+                    
+                </div>
+
+                <div class="aboutme">
+                    <h4>Sobre Mí</h4>
+                    <p id="sobremi">...</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

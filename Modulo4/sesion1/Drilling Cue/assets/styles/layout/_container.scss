@@ -1,0 +1,61 @@
+.anuncio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0 5% 0;
+
+    .caja {
+        text-align: center;
+        border-radius: 10px;
+        background-color: #eafbff;
+        width: 300px;
+        height: 620px;
+
+        // box shadow
+        box-shadow: 0px 0px 16px 2px rgba(0,0,0,1);
+        -webkit-box-shadow: 0px -2px 16px 2px rgba(0,0,0,1);
+        -moz-box-shadow: 0px -2px 16px 2px rgba(0,0,0,1);
+        
+
+        p {
+            padding: 0% 20%;
+        }
+    }
+
+    .form {
+        background-color: #fff;
+        padding: 10%;
+        border-radius: 10px;
+
+        .usuario,
+        .correo,
+        .pass {
+            padding: 3%;
+            width: 80%;
+            border: solid;
+            border-color: #eafbff;
+            background: #eafbff;
+        }
+
+        .boton {
+            background-color: rgb(0, 110, 255);
+            color: #eafbff;
+            padding: 3%;
+            border: solid rgb(0, 110, 255);
+            width: 90%;
+        }
+
+        p {
+            color: #aab9bd;
+            width: 80%;
+            text-align: justify;
+
+            a {
+                outline: none;
+                text-decoration: none;
+                color: rgb(0, 110, 255);
+            }
+        }
+    }
+}

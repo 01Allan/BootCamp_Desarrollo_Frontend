@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains typography styles.
+// -----------------------------------------------------------------------------
+
+.container {
+    font: bold;
+
+
+    &__titulo {
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 20px;
+    }
+
+    &__texto {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(56, 56, 56);
+    }
+
+    &__codigo {
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        a {
+           
+           font-size: large;
+        }
+
+        h4 {
+            font-size: larger;
+        }
+    }
+
+}

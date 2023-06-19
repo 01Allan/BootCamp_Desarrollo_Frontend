@@ -1,0 +1,11 @@
+body {
+    background: url('/assets/img/chuck.jpg');
+    background-size: 20%;
+    margin: 15%;
+}
+
+#cajaxd {
+    background-color: rgba(0, 0, 0, 0.85);
+    border-color: rgba(66, 94, 255, 0.9);
+    border-style: solid;
+}

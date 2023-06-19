@@ -1,0 +1,88 @@
+.container {
+  font: bold;
+}
+.container__titulo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+.container__texto {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(56, 56, 56);
+}
+.container__codigo {
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container__codigo a {
+  font-size: large;
+}
+.container__codigo h4 {
+  font-size: larger;
+}
+
+.container {
+  width: 500px;
+  margin: 5% 0 5% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(219, 219, 219);
+}
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (max-width: 600px) {
+  .container__imagen img {
+    width: 100%;
+    margin: 0;
+  }
+}
+.container__titulo {
+  width: 200px;
+  padding-top: 10%;
+  text-align: center;
+}
+.container__texto {
+  width: 400px;
+}
+.container__texto label {
+  color: rgb(226, 185, 2);
+}
+@media (max-width: 600px) {
+  .container__texto {
+    width: 80%;
+  }
+}
+.container__codigo {
+  width: 90%;
+  padding: 10% 5% 30% 5%;
+  text-align: center;
+  background-color: rgb(32, 32, 54);
+}
+.container__codigo a {
+  color: rgb(0, 162, 255);
+  outline: none;
+  border-bottom: 1px solid;
+}
+.container__codigo h4 {
+  color: yellow;
+}
+@media (max-width: 600px) {
+  .container__codigo {
+    width: 90%;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

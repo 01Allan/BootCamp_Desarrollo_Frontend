@@ -1,0 +1,9 @@
+.form__boton {
+    text-align: center;
+
+    &--style {
+        border: 2px solid rgb(81, 200, 255);
+        border-radius: 15px;
+        padding: 1%;
+    }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIMRODEL Restaurant y Pub</title>
+    <link rel="shortcut icon" href="/MATERIAL COMPLEMENTARIO/n.png">
+</head>
+
+<body>
+    <center>
+        <img src="/MATERIAL COMPLEMENTARIO/n.png" alt="">
+    </center>
+    <ul>
+        <li>nuestros productos</li>
+        <li>sobre nosotros</li>
+        <li><a href="#comunicar">Comuniquemonos</a></li>
+        <li><a href="#reserva">Reserva</a></li>
+    </ul>
+    <h1>Nimrodel Pub Restaurant <br></h1>
+    
+    <h1>Destacados de la semana</h1>
+    
+    <img src="/MATERIAL COMPLEMENTARIO/bebidas.jpg" height="500" width="800">
+    <h3>GASEOSAS</h3>
+    <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing eli.</p>
+    
+    <img src="/MATERIAL COMPLEMENTARIO/tablas.jpg" height="500" width="800">
+    <h3>TABLAS</h3>
+    <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing eli.</p>
+    
+    <img src="/MATERIAL COMPLEMENTARIO/shop.jpeg" height="500" width="800">
+    <h3>SHOP CERVEZAS</h3>
+    <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing eli.</p>
+
+    <!--Inicio de los formularios-->
+    <h3 id="comunicar">Comuniquemonos</h3>
+    <form action="" method="get">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="María vargas" required>
+        
+        <br>
+        <label for="correo"><br> Correo</label>
+        <input type="mail" name="correo" id="correo" placeholder="mariavargas@correo.com" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required>
+    
+        <br>
+        <label for="telefono"><br> Teléfono</label>
+        <input type="text" name="telefono" id="telefono" placeholder="951236874" required>
+    
+        <br>
+        <label for="motivo"><br> Motivo</label>
+        <input type="text" name="motivo" id="motivo" required>
+        <br>
+        <br>
+        <textarea name="motivo" id="motivo" cols="35" rows="15"></textarea>
+        <p>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
+   
+
+    <h3 id="reserva">Reserva</h3>
+        <form action="" method="get">
+            <label for="nombre2">Nombre</label>
+        <input type="text" name="nombre2" id="nombre2" placeholder="xxx xxxxx" required>
+
+        <br>
+        <label for="correo"><br> Correo</label>
+        <input type="email" name="correo" id="correo" placeholder="xxx@xxx.xx" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required>
+
+        <br>
+        <label for="telefono"><br> Teléfono</label>
+        <input type="number" name="telefono" id="telefono" placeholder="xxxxxxxxx" required>
+
+        <br>
+        <label for="fecha"><br> Fecha</label>
+        <input type="date" name="fecha" id="fecha">
+
+        <br>
+        <label for="hora"><br> Hora</label>
+        <input type="time" name="hora" id="hora">
+
+        <br>
+        <label for="cantidad"><br> Cantidad de asistentes</label>
+        <input type="number" name="cantidad" id="cantidad">
+
+        <p>
+            <button type="submit">Reservar</button>
+        </p>
+    </form>
+    
+
+    <!--Pie de página-->
+    <footer>
+        <p>Todos los derechos reservados <strong>&reg;</strong></p>
+    </footer>
+    
+</body>
+</html>

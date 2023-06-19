@@ -1,0 +1,90 @@
+// .publicacion {
+//     &__foto {
+//         width: 100%;
+//         display: flex;
+//     }
+
+//     &__boton {
+//         width: 60%;
+//         display: flex;
+//     }
+
+//     &__boton--style {
+//         border-radius: 10px;
+//         background-color: greenyellow;
+//     }
+
+// }
+
+// .publicaciones {
+//     &__ubicacion {
+//         display: flex;
+//         display: inline-block;
+//     }
+
+//     &__likes {
+//         display: flex;
+//         margin: 2%;
+//         display: inline-block;
+//     }
+
+//     &__fecha {
+//         display: flex;
+//         margin: 2%;
+//         display: inline-block;
+//     }
+
+//     &__hora {
+//         display: flex;
+//         margin: 2%;
+//         display: inline-block;
+//     }
+// }
+
+// .comentarios {
+
+//     &__uno {
+//         @media (max-width: $brackpoint-sm) {
+//             display: none;
+//         }
+    
+//         @media (min-width: $brackpoint-sm) and (max-width: $brackpoint-md) {
+//             display: none;
+//         }
+    
+//         @media (min-width: $brackpoint-md) and (max-width: $brackpoint-lg) {
+//             display: none;
+//         }
+    
+//         @media (min-width: $brackpoint-lg) and (max-width: $brackpoint-xl) {
+            
+//         }
+    
+//         @media (min-width: $brackpoint-xl) {
+            
+//         }
+//     }
+
+//     &__dos {
+//         @media (max-width: $brackpoint-sm) {
+//             display: none;
+//         }
+    
+//         @media (min-width: $brackpoint-sm) and (max-width: $brackpoint-md) {
+//             display: none;
+//         }
+    
+//         @media (min-width: $brackpoint-md) and (max-width: $brackpoint-lg) {
+//             display: none;
+//         }
+    
+//         @media (min-width: $brackpoint-lg) and (max-width: $brackpoint-xl) {
+            
+//         }
+    
+//         @media (min-width: $brackpoint-xl) {
+            
+//         }
+//     }
+    
+// }

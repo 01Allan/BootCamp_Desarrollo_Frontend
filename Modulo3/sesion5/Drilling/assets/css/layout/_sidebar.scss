@@ -1,0 +1,85 @@
+.barra {
+    display: none;
+
+    a {
+        text-decoration: none;
+        color: cornsilk;
+    }
+
+    @media (max-width: $breakpoint-tablet) {
+        display: block;
+        width: 80%;
+        height: 195px;
+        text-align: center;
+        background-color: rgba(245, 245, 245, 0.15);
+        margin: 2% 0% 1% 10%;
+        padding-top: 2%;
+        border-radius: 25px;
+        border-color: lightgray;
+        border-style: solid;
+        border-width: 1px;
+
+
+        &__item {
+            color: cornsilk;
+            width: 40%;
+            display: inline-block;
+            margin: 1% 0% 0% 0%;
+        }
+
+        &__continente {
+            padding: 1%;
+        }
+
+        &__titulo {
+            color: cornsilk;
+        }
+    }
+
+}
+
+
+.sidebar {
+    width: 15%;
+    height: 660px;
+    margin: 2% 0% 1% 2%;
+    background-color: rgba(245, 245, 245, 0.15);
+    display: block;
+    background-color: rgba(245, 245, 245, 0.15);
+    padding-top: 2%;
+    border-radius: 15px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+
+    a {
+        text-decoration: none;
+        color: cornsilk;
+    }
+
+    &__item {
+        color: cornsilk;
+        width: 80%;
+        height: 80px;
+        display: inline-block;
+        margin: 8% 0% 0% 0%;
+    }
+
+    &__continente {
+        padding: 1%;
+        margin-left: 10%;
+
+    }
+
+    &__titulo {
+        color: cornsilk;
+        width: 80%;
+        display: flex;
+        margin-left: 10%;
+        font-size: small;
+    }
+
+    @media (max-width: $breakpoint-tablet) {
+        display: none;
+    }
+}

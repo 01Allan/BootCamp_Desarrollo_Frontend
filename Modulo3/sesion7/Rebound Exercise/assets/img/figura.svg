@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 10 500 500">
+    <defs>
+        <style>
+            .circle-1 {
+                fill: white;
+                stroke-width: 3px;
+                stroke: black;
+            }
+
+            .circle-2 {
+                fill: white;
+                stroke-width: 3px;
+                stroke: black;
+            }
+
+            .circle-3 {
+                fill: white;
+                stroke-width: 3px;
+                stroke: black;
+            }
+
+        </style>
+    </defs>
+
+    <g>
+
+        <circle class="circle-1" cx="100" cy="380" r="125" />
+        <circle class="circle-1" cx="100" cy="240" r="100" /> 
+        <circle class="circle-1" cx="100" cy="100" r="80" />
+    </g>
+</svg>

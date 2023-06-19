@@ -1,0 +1,26 @@
+.destinos1 {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.carta {
+    background-color: rgba(247, 190, 230, 0.952);
+    border-color: rgb(0, 195, 255);
+
+    &__img {
+        width: 80%;
+        height: 20%;
+        margin: 3% 0% 0% 10%;
+        border-radius: 10px;
+    }
+
+    &__cuerpo {
+        height: 100%;
+    }
+}
+
+.carta__img--francia {
+    width: 70%;
+    margin: 3% 0% 0% 15%;
+    border-radius: 10px;
+}

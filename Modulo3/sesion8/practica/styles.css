@@ -1,0 +1,29 @@
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* animation: desplazar 2s ease-in-out infinite; */
+}
+
+@keyframes desplazar {
+    0% {
+        margin: 0;
+    }
+
+    25% {
+        margin-left: 100px;
+    }
+
+    50% {
+        margin-top: 100px;
+    }
+
+    75% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin: 0;
+    }
+
+}

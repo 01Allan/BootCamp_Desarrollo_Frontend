@@ -1,0 +1,268 @@
+header {
+  width: 100%;
+  height: 60px;
+  background-color: greenyellow;
+}
+@media (max-width: 320px) {
+  header {
+    height: 35px;
+  }
+}
+@media (min-width: 320px) and (max-width: 576px) {
+  header {
+    height: 40px;
+  }
+}
+@media (min-width: 576px) and (max-width: 800px) {
+  header {
+    height: 45px;
+  }
+}
+
+.navbarr {
+  width: 100%;
+}
+@media (max-width: 320px) {
+  .navbarr__name {
+    width: 45%;
+    height: 30px;
+    display: flex;
+    display: inline-block;
+  }
+  .navbarr__name--style {
+    margin: 1%;
+  }
+  .navbarr__usuario--style {
+    text-align: end;
+  }
+  .navbarr__usuario {
+    width: 53%;
+    height: 30px;
+    display: flex;
+    display: inline-block;
+  }
+}
+@media (min-width: 320px) and (max-width: 576px) {
+  .navbarr__name {
+    width: 45%;
+    height: 30px;
+    display: flex;
+    display: inline-block;
+  }
+  .navbarr__name--style {
+    margin: 1%;
+  }
+  .navbarr__usuario--style {
+    text-align: end;
+  }
+  .navbarr__usuario {
+    width: 53%;
+    height: 30px;
+    display: flex;
+    display: inline-block;
+  }
+}
+@media (min-width: 576px) {
+  .navbarr__name {
+    width: 45%;
+    height: 30px;
+    display: flex;
+    display: inline-block;
+  }
+  .navbarr__name--style {
+    margin: 10px;
+  }
+  .navbarr__usuario--style {
+    margin: 10px;
+    text-align: end;
+  }
+  .navbarr__usuario {
+    width: 53%;
+    height: 30px;
+    display: flex;
+    display: inline-block;
+  }
+}
+@media (min-width: 576px) and (min-width: 800px) {
+  .navbarr__name {
+    width: 45%;
+    height: 30px;
+    display: flex;
+    display: inline-block;
+  }
+  .navbarr__name--style {
+    margin: 10px;
+  }
+  .navbarr__usuario--style {
+    text-align: end;
+  }
+  .navbarr__usuario {
+    width: 53%;
+    height: 30px;
+    display: flex;
+    display: inline-block;
+  }
+}
+@media (min-width: 800px) and (min-width: 1200px) {
+  .navbarr__name {
+    width: 45%;
+    height: 30px;
+    display: flex;
+    display: inline-block;
+  }
+  .navbarr__name--style {
+    margin: 4% 0% 1% 2%;
+  }
+  .navbarr__usuario--style {
+    text-align: end;
+  }
+  .navbarr__usuario {
+    width: 53%;
+    height: 30px;
+    display: flex;
+    display: inline-block;
+  }
+}
+
+.navbarr__name--style {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.navbarr__usuario--style {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.foot__item--uno {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.foot__item--dos, .foot__item--tres {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.publicacion__foto {
+  width: 100%;
+  display: flex;
+}
+.publicacion__boton {
+  width: 60%;
+  display: flex;
+}
+.publicacion__boton--style {
+  border-radius: 10px;
+  background-color: greenyellow;
+}
+
+.publicaciones__ubicacion {
+  display: flex;
+  display: inline-block;
+}
+.publicaciones__likes {
+  display: flex;
+  margin: 2%;
+  display: inline-block;
+}
+.publicaciones__fecha {
+  display: flex;
+  margin: 2%;
+  display: inline-block;
+}
+.publicaciones__hora {
+  display: flex;
+  margin: 2%;
+  display: inline-block;
+}
+
+@media (max-width: 320px) {
+  .comentarios__uno {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 576px) {
+  .comentarios__uno {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 800px) {
+  .comentarios__uno {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .comentarios__dos {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 576px) {
+  .comentarios__dos {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 800px) {
+  .comentarios__dos {
+    display: none;
+  }
+}
+.subir-file {
+  border: 1px solid;
+  display: inline-block;
+  cursor: pointer;
+}
+
+input[type=file] {
+  display: none;
+}
+
+@media (max-width: 320px) {
+  .timeline {
+    width: 90%;
+    border: 1px;
+    margin: 5%;
+  }
+}
+@media (min-width: 320px) and (max-width: 576px) {
+  .timeline {
+    width: 80%;
+    border: 1px;
+    margin: 5% 0% 5% 10%;
+  }
+}
+@media (min-width: 576px) and (max-width: 800px) {
+  .timeline {
+    width: 80%;
+    border: 1px;
+    margin: 5% 0% 5% 10%;
+  }
+}
+@media (min-width: 800px) and (max-width: 1200px) {
+  .timeline {
+    width: 60%;
+    border: 1px;
+    margin: 5% 0% 5% 20%;
+  }
+}
+@media (min-width: 1200px) {
+  .timeline {
+    width: 60%;
+    border: 1px;
+    margin: 5% 0% 5% 20%;
+  }
+}
+
+.foot {
+  background-color: greenyellow;
+  padding: 1%;
+  text-align: center;
+}
+.foot__item {
+  margin-top: 2%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, rgb(0, 255, 0), rgb(95, 255, 95), #abffab);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,86 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    .beber {
+        width: 35%; 
+        height: auto;
+        padding: 3%;
+        background-color: #fff;
+        border-radius: 15px;
+        margin: 5% 0 0 1%;
+  
+      table {
+        border-collapse: collapse;
+        width: 100%; 
+  
+        th, td {
+            padding: 8px;
+            border-top: 2px solid rgb(216, 216, 216);
+            border-bottom: 2px solid rgb(216, 216, 216);
+        }
+  
+        tr {
+            border-left: 2px solid rgb(216, 216, 216);
+            border-right: 2px solid rgb(216, 216, 216);
+  
+          .precio {
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .menu {
+        width: 35%; 
+        height: auto;
+        padding: 3%;
+        background-color: #fff;
+        border-radius: 15px;
+        margin: 2% 0 0 1%;
+
+        .item {
+
+            border: 1px solid rgb(216, 216, 216);
+            padding: 2%;
+
+            &__body {
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                &--text {
+                    width: 70%;
+                }
+
+                &--img {
+                    width: 100px;
+                    border-radius: 100%;
+                }
+            }
+        }
+    }
+
+    .cuenta {
+        width: 35%; 
+        height: auto;
+        padding: 3%;
+        background-color: #fff;
+        border-radius: 15px;
+        margin: 2% 0 2% 1%;
+
+        table {
+            display: flex;
+            justify-content: center;
+            // width: 100%;
+
+            tr {
+                text-align: justify;
+            }
+        }
+    }
+
+}

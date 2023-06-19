@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+    <defs>
+
+        <style>
+            .circulo {
+                fill: blue;
+                stroke-width: 3px;
+                stroke: orange;
+                display: inline-block;
+            }
+
+            .rectangulo {
+                display: inline-block;
+                stroke-width: 3px;
+                stroke: blue;
+            }
+        </style> 
+         
+    </defs>
+
+    <circle class="circulo" cx="150" cy="150" r='100' /> 
+    <rect class="rectangulo" width="200" height="150" fill="yellow" />
+</svg>

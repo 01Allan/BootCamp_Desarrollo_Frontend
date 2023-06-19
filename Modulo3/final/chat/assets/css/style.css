@@ -1,0 +1,76 @@
+.mostrarChats {
+  display: none;
+}
+@media (max-width: 800px) {
+  .mostrarChats {
+    margin-left: 35%;
+    display: block;
+  }
+}
+
+.chats {
+  display: flex;
+  box-shadow: 0px 5px 15px rgba(17, 20, 26, 0.466);
+}
+.chats h1 {
+  display: none;
+}
+@media (max-width: 800px) {
+  .chats .icono h5, .chats .icono h3, .chats .icono p {
+    display: none;
+  }
+  .chats .icono h1 {
+    display: block;
+  }
+}
+.chats .personas {
+  width: 40%;
+}
+.chats .personas .persona--style {
+  width: auto;
+  height: 150px;
+  padding: 2%;
+}
+.chats .personas .persona--style .icono i:hover {
+  font-size: 50px;
+}
+@media (max-width: 800px) {
+  .chats .personas {
+    width: 20%;
+  }
+  .chats .personas .persona--style {
+    width: auto;
+    height: 50px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.chats .mensajes {
+  width: 60%;
+  background: url("/assets/img/mensaje.png");
+  background-color: rgb(33, 110, 224);
+  background-size: 5%;
+}
+.chats .mensajes__style {
+  width: auto;
+}
+@media (max-width: 800px) {
+  .chats .mensajes {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .personas, .mensajes {
+    display: none;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left, #ff9e9e, #838dff);
+}
+
+/*# sourceMappingURL=style.css.map */

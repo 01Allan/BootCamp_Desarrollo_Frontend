@@ -1,0 +1,41 @@
+.contenedor {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    margin: 5%;
+    width: 70%;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-radius: 15px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton {
+    width: 20%;
+    transition: transform 1s ease-in-out;
+}
+
+.boton:hover {
+    transform: translateX(600px);
+}
+
+input {
+    transition: transform 1s ease;
+}
+
+input:focus {
+    transform: translateY(90px);
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    background-color: black;
+    color: black;
+}
+

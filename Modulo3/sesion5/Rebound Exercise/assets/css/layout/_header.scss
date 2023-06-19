@@ -1,0 +1,18 @@
+header {
+    width: 100%;
+    height: 60px;
+    background-color: greenyellow;
+
+    @media (max-width: $brackpoint-sm) {
+        height: 35px;
+    }
+
+    @media (min-width: $brackpoint-sm) and (max-width: $brackpoint-md) {
+        height: 40px;
+    }
+
+    @media (min-width: $brackpoint-md) and (max-width: $brackpoint-lg) {
+        height: 45px;
+    }
+}
+

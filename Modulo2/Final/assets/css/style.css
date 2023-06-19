@@ -1,0 +1,54 @@
+body {
+    background-color: rgba(255, 166, 0, 0.507);
+    background-image: url(/assets/img/digimon.png); 
+    background-size: 10%;
+    background-repeat: repeat-x repeat-y;
+}
+
+.barranav {
+    background-color: orange;
+}
+
+.navegacion__img {
+    border-radius: 100%;
+    border-color: black;
+}
+
+.navegacion__contenido {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.informacion {
+    width: 80%;
+    padding: 2%;
+    background-color: rgba(255, 153, 0, 0.5);
+    backdrop-filter: blur(5px);
+    margin: 5% 0% 5% 10%;
+    border-radius: 20px;
+}
+
+.informacion__title {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.minitext {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.carta1, .carta2 {
+    margin-left: 12%;
+}
+
+.carta0 {
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+
+

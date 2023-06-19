@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Drilling</title>
+
+    <!-- mi css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- cdn de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#"><strong>Chat</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active btn border-warning text-white" aria-current="page" href="#">Bandeja de entrada <i class="disabled">(2)</i> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white btn btn-primary" href="#">Mensajes enviados</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link text-white btn btn-primary">Papelera</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar mensajes" aria-label="Search">
+                        <button class="btn btn-danger text-white" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mostrarChats my-4" id="mostrarChat">
+        <div class="centrarBoton">
+            <a class="nav-link text-white btn btn-primary w-50">Ver mensajes <i class="bi bi-menu-down"></i></a>
+        </div>
+    </div>
+
+    <div class="chats m-5">
+
+        <div class="personas mb-3" id="personas">
+
+            <div class="persona--style card border-primary bg-black bg-opacity-10" id="personaStyle">
+                <div class="icono card-header">
+                    <h1><i class="bi bi-person-circle"></i></h1>
+                    <h3><i class="bi bi-person-circle"></i> Axel Cruz</h3>
+                    <h5 class="card-title">Hello from Toronto</h5>
+                    <p class="card-text mb-5">
+                        Lorem ipsum dolor sit... 
+                    </p>
+                </div>
+                
+            </div>
+
+            <div class="persona--style card border-primary" id="personaStyle">
+                <div class="icono card-header">
+                    <h1><i class="bi bi-person-circle"></i></h1>
+                    <h3><i class="bi bi-person-circle"></i> Cristhian Mendoza</h3>
+                    <h5 class="card-title">Hello from Toronto</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit...
+                    </p>
+                </div>
+            </div>
+
+            <div class="persona--style card border-primary" id="personaStyle">
+                <div class="icono card-header">
+                    <h1><i class="bi bi-person-circle"></i></h1>
+                    <h3><i class="bi bi-person-circle"></i> Enoc Arias</h3>
+                    <h5 class="card-title">Hello from Toronto</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet... 
+                    </p>
+                </div>
+            </div>
+
+            <div class="persona--style card border-primary" id="personaStyle">
+                <div class="icono card-header">
+                    <h1><i class="bi bi-person-circle"></i></h1>
+                    <h3><i class="bi bi-person-circle"></i> Nancy Cruz</h3>
+                    <h5 class="card-title">Hello from Toronto</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet..
+                    </p>
+                </div>
+            </div>
+
+            <div class="persona--style card border-primary" id="personaStyle">
+                <div class="icono card-header">
+                    <h1><i class="bi bi-person-circle"></i></h1>
+                    <h3><i class="bi bi-person-circle"></i> Amalia Cruz</h3>
+                    <h5 class="card-title">Hello from Toronto</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit...
+                    </p>
+                </div>
+            </div>
+
+            <div class="persona--style card border-primary" id="personaStyle">
+                <div class="icono card-header">
+                    <h1><i class="bi bi-person-circle"></i></h1>
+                    <h3><i class="bi bi-person-circle"></i> Alef Shemtov</h3>
+                    <h5 class="card-title">Hello from Toronto</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit... 
+                    </p>
+                </div>
+            </div>
+
+            <div class="persona--style card border-primary" id="personaStyle">
+                <div class="icono card-header">
+                    <h1><i class="bi bi-person-circle"></i></h1>
+                    <h3>
+                        <i class="bi bi-person-circle"></i> Alef Shemtov
+                    </h3>
+                    <h5 class="card-title">Hello from Toronto</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit... 
+                    </p>
+                    
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="mensajes" id="mensajes">
+
+            <div class="mensajes__style card  text-white bg-primary bg-opacity-75">
+                <div class="card-header text-white">
+                    <h1>Hello from Toronto</h1>
+                    <p>
+                        From Axel Cruz at <i>3:56pm, April 3, 2021</i> 
+                    </p>
+
+                    <button class="btn btn-danger text-white" type="submit">Responder</button>
+                    <button class="btn btn-danger text-white" type="submit">Forward</button>
+                    <button class="btn btn-danger text-white" type="submit">Borrar</button>
+
+                </div>
+                <div class="card-body text-white">
+                  
+                  <p class="card-text">
+                    
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique aperiam modi quae sequi, amet in id quisquam totam provident vitae reprehenderit incidunt ullam cumque accusantium illo nisi, nobis quasi? Cum!
+                    <br><br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora velit ad neque eligendi, a labore omnis quibusdam, soluta sed magnam, necessitatibus aut doloribus rem consectetur voluptate maxime nemo nihil voluptas.
+                    <br><br>
+                    Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <br><br>
+                    Aliquam ac feugiat dolor. Proin mattis massa sit amet enim iaculis tincidunt. Mauris tempor mi vitae sem aliquet pharetra. Fusce in dui purus, nec malesuada mauris. Curabitur ornare arcu quis mi blandit laoreet. Vivamus imperdiet fermentum mauris, ac posuere urna tempor at. Duis pellentesque justo ac sapien aliquet egestas. Morbi enim mi, porta eget ullamcorper at, pharetra id lorem.
+                    <br><br>
+                    Donec sagittis dolor ut quam pharetra pretium varius in nibh. Suspendisse potenti. Donec imperdiet, velit vel adipiscing bibendum, leo eros tristique augue, eu rutrum lacus sapien vel quam. Nam orci arcu, luctus quis vestibulum ut, ullamcorper ut enim. Morbi semper erat quis orci aliquet condimentum. Nam interdum mauris sed massa dignissim rhoncus.
+                    <br><br>
+                    Saludos,<br>
+                    Axel
+
+                  </p>
+                </div>
+
+                <div class="form-floating mb-5">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                    <br>
+                    <button class="btn btn-danger text-white mx-2" type="submit">Enviar</button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Adjuntar
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Imagen</a></li>
+                            <li><a class="dropdown-item" href="#">Video</a></li>
+                            <li><a class="dropdown-item" href="#">Documento</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- mi js -->
+    <script src="assets/js/main.js"></script>
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+@import 'abstracts/variables';
+@import 'base/typography';
+@import 'components/buttons';
+@import 'components/timeline';
+@import 'layout/footer';
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/sidebar';
+
+body {
+    margin: 0;
+    background: linear-gradient(
+        to right,
+        black,
+        black,
+    );
+}

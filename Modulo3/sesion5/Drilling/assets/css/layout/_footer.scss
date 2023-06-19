@@ -1,0 +1,28 @@
+.foot {
+    background-color: rgba(245, 245, 245, 0.15);
+    color: cornsilk;
+    padding: 1%;
+
+    a {
+        color: cornsilk;
+    }
+
+    &__item {
+
+        @media (max-width: $breakpoint-movil) {
+            text-align: center;
+            padding: 3%;
+            
+        }
+
+        @media (min-width: $breakpoint-movil) {
+            text-align: center;
+            width: 24%;
+            display: flex;
+            display: inline-block;
+            
+        }
+        
+    }
+    
+}
