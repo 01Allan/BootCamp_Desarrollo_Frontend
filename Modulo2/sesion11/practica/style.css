@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(0, 0, 0, 0.856);
+    border-color: rgba(59, 59, 255, 0.815);
+    border-style: solid;;
+}
+
+#pelem {
+    border-radius: 60%;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+#tabla {
+    border-style: solid;
+    border-color: rgba(59, 59, 255, 0.815);
+}
+
+#formulario {
+    border-color: rgba(59, 59, 255, 0.815);
+    border-style: solid;
+    border-radius: 2%;
+    width: 50%;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.822);
+}

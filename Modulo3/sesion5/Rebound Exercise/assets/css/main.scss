@@ -1,0 +1,17 @@
+@import "abstracts/variables";
+@import "layout/header";
+@import "layout/navigation";
+@import "base/typography";
+@import "components/buttons";
+@import "components/timeline";
+@import "layout/footer";
+
+body {
+    margin: 0;
+    background: linear-gradient(
+        to right,
+        rgb(0, 255, 0),
+        rgb(95, 255, 95),
+        #abffab
+    );
+}

@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.toggle {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+
+    .on {
+        display: none;
+    }
+}

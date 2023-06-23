@@ -1,0 +1,24 @@
+
+.carrusel {
+    width: 100%;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+
+.compra {
+
+    border-radius: 10%;
+    background-color: blueviolet;
+
+    &__img {
+
+        width: 70%;
+        border-radius: 10%;
+        height: 100px;
+        margin-left: 14%;
+        margin-top: 5%;
+        
+    }
+}

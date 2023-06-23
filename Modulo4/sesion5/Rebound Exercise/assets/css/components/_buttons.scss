@@ -1,0 +1,19 @@
+.formulario {
+
+    &__body {
+      .formulario__boton {
+        background: linear-gradient(to right, rgb(255, 0, 191), rgb(111, 0, 255));
+        padding: 1%;
+        width: 200px;
+        border-radius: 2px;
+        color: #fff;
+        font-size: medium;
+        font-weight: bold;
+
+      }
+      
+      .formulario__boton:hover {
+        background-color: rgb(111, 0, 255);
+      }
+    }
+}

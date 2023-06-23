@@ -1,0 +1,32 @@
+.box {
+  border: 5px solid blue;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+span {
+  background-color: greenyellow;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  visibility: hidden;
+}
+
+.flotantes {
+  background-color: gold;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-right {
+  clear: right;
+}
+
+/*# sourceMappingURL=styles.css.map */

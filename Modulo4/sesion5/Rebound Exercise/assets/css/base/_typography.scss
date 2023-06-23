@@ -1,0 +1,40 @@
+.formulario {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    &__header {
+        
+        font-size: 25px;
+    }
+
+}
+
+
+.carta {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    &__principal {
+        h4 {
+            color: #fff;
+        }
+    }
+
+    &__datos {
+
+        &--body {
+
+            .contactos {
+              p {
+                color: rgb(117, 117, 117);
+              }
+            }
+
+            .aboutme {
+                p {
+                color: rgb(117, 117, 117);
+              }
+            }
+        }
+    }
+}

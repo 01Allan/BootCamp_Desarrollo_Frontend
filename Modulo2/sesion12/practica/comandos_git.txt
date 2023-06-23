@@ -1,0 +1,53 @@
+para iniciar un repositorio:
+git init
+
+ver estado 
+git status 
+
+seguir todos los archivos
+git add .
+
+guardar la version del proyecto
+git commit -m "comentario"
+
+muestra la version guardada
+git log
+
+creando una rama 
+git branch nombre
+
+ver las ramas
+git branch
+
+moverse entre ramas
+git checkout nombre
+
+Deshacer los cambios hechos/restaurar la version anterior
+git restore
+
+agregar y realizar el commit al mismo tiempo
+git commit -a
+
+cargar contenido al repositorio remoto
+git push
+
+ver las diferencias realizadas en un archivo seguido
+git diff
+
+Renombrar un archivo
+git mv
+
+Ignorar archivos especificos
+git ignore, usando .gitignore
+
+Eliminar o fusionar ramas
+Eliminar: git branch -d nombre / forzada: git branch -D nombre
+Unir: git merge / git rebase
+
+git tags: etiquetas que marcan un punto en concreto en la historia, una rama que no cambia en la historia. 
+
+Guardar temporalmente los cambios (si se necesita)
+git stash 
+
+
+

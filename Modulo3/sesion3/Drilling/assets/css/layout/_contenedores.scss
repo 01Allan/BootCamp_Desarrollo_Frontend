@@ -1,0 +1,85 @@
+.todo { 
+    background-color: rgb(222, 222, 243);
+}
+
+.header {
+    background-color: blue;
+}
+
+.noticia {
+    margin: 3% 0% 3% 5%;
+    width: 90%;
+
+    &__principal {
+        background-color: rgba(0, 68, 255, 0.61);
+        margin-bottom: 3%;
+        border-radius: 10px;
+    }
+
+    &__title--main {
+        text-align: center;
+        width: 700px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.322);
+        color: white;
+        margin-left: 18%;
+    }
+
+    &__img--main {
+        width: 700px;
+        height: 400px;
+        margin-left: 20%;
+    }
+
+    &__text--principal { 
+        text-align: center;
+        width: 700px;
+        background-color: rgba(0, 0, 0, 0.493);
+        margin-left: 20%;
+        color: white;
+    }
+
+}
+
+.noticias2 {
+    margin: 3% 0% 1% 5%;
+    width: 90%;
+    
+    &__uno {
+        position: relative;
+    }
+
+    &__dos {
+        position: relative;
+        left: 712px;
+        bottom: 400px;
+    }
+
+    &__tres {
+        position: relative;
+        bottom: 300px;
+    }
+
+    &__cuatro {
+        position: relative;
+        left: 712px;
+        bottom: 700px;
+        
+    }
+
+    &__title {
+        text-align: center;
+        width: 500px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.322);
+        color: white;
+        margin-left: 0%;
+    }
+
+}
+
+
+.foot {
+    padding: 3%;
+    background-color: blue;
+}   

@@ -1,0 +1,125 @@
+.navbarr {
+    width: 100%;
+
+    @media (max-width: $brackpoint-sm) {
+        &__name {
+            width: 45%;
+            height: 30px;
+            display: flex;
+            display: inline-block;
+        }
+    
+        &__name--style {
+            margin: 1%;
+        }
+
+        &__usuario--style {
+            text-align: end;
+        }
+        
+        &__usuario {
+            width: 53%;
+            height: 30px;
+            display: flex;
+            display: inline-block;
+        }
+    }
+
+    @media (min-width: $brackpoint-sm) and (max-width: $brackpoint-md) {
+        &__name {
+            width: 45%;
+            height: 30px;
+            display: flex;
+            display: inline-block;
+        }
+    
+        &__name--style {
+            margin: 1%;
+        }
+
+        &__usuario--style {
+            text-align: end;
+        }
+        
+        &__usuario {
+            width: 53%;
+            height: 30px;
+            display: flex;
+            display: inline-block;
+        }
+    }
+
+    @media (min-width: $brackpoint-md) {
+        &__name {
+            width: 45%;
+            height: 30px;
+            display: flex;
+            display: inline-block;
+        }
+    
+        &__name--style {
+            margin: 10px;
+        }
+
+        &__usuario--style {
+            margin: 10px;
+            text-align: end;
+        }
+        
+        &__usuario {
+            width: 53%;
+            height: 30px;
+            display: flex;
+            display: inline-block;
+        }
+    }
+
+    @media (min-width: $brackpoint-md) and (min-width: $brackpoint-lg) {
+        &__name {
+            width: 45%;
+            height: 30px;
+            display: flex;
+            display: inline-block;
+        }
+    
+        &__name--style {
+            margin: 10px;
+        }
+
+        &__usuario--style {
+            text-align: end;
+        }
+        
+        &__usuario {
+            width: 53%;
+            height: 30px;
+            display: flex;
+            display: inline-block;
+        }
+    }
+
+    @media (min-width: $brackpoint-lg) and (min-width: $brackpoint-xl) {
+        &__name {
+            width: 45%;
+            height: 30px;
+            display: flex;
+            display: inline-block;
+        }
+    
+        &__name--style {
+            margin: 4% 0% 1% 2%;
+        }
+
+        &__usuario--style {
+            text-align: end;
+        }
+        
+        &__usuario {
+            width: 53%;
+            height: 30px;
+            display: flex;
+            display: inline-block;
+        }
+    }
+
+}

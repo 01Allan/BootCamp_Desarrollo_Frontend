@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// This file contains typography styles.
+// -----------------------------------------------------------------------------
+
+.clima {
+    
+
+    &__header {
+ 
+        &--contenido {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: larger;
+        }
+    }
+
+    &__body {
+
+        .day {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+
+    }
+
+       
+}
+
+
+.toggle {
+    .grado-c, .grado-f {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+}

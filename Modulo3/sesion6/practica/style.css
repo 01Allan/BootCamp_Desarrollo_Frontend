@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: flex;
+    background-color: yellow;
+    flex-wrap: nowrap;
+    height: 200px;
+    /* justify-content: space-around; */
+    /* align-content: stretch; */
+    align-items: baseline;
+}
+
+.item {
+    background-color: blueviolet;
+    color: white;
+    border: 5px solid white;
+    margin: 5px;
+    width: 40%;
+
+}

@@ -1,0 +1,8 @@
+.mostrarChats {
+    display: none;
+
+    @media (max-width: 800px) {
+        margin-left: 35%;
+        display: block;
+    }
+}

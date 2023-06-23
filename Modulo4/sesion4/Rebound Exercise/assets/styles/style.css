@@ -1,0 +1,18 @@
+.contenedor {
+  margin: 10% 0 0 0;
+}
+.contenedor__header {
+  width: 40%;
+  margin: 0 0 2% 0;
+  display: inline-block;
+}
+.contenedor__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contenedor__body .destino, .contenedor__body .origen {
+  margin: 1%;
+}
+
+/*# sourceMappingURL=style.css.map */

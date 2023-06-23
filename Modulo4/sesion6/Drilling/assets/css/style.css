@@ -1,0 +1,60 @@
+.contenedor .equipo__body form .botonAdd {
+  border: 1px solid rgb(0, 140, 255);
+  color: rgb(0, 140, 255);
+  padding: 2%;
+  border-radius: 5px;
+}
+.contenedor .equipo__body form .botonDel {
+  border: 1px solid rgb(255, 0, 43);
+  color: rgb(255, 0, 43);
+  padding: 2%;
+  border-radius: 5px;
+}
+.contenedor .equipo__body form .botonAdd:hover {
+  border: 2px solid rgb(0, 81, 255);
+  color: rgb(0, 81, 255);
+  font-weight: bold;
+}
+.contenedor .equipo__body form .botonDel:hover {
+  border: 2px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor .equipo {
+  width: 70%;
+  height: auto;
+  background-color: #fff;
+  margin: 5% 0 0 0;
+  padding: 2% 0;
+}
+.contenedor .equipo__header {
+  text-align: center;
+}
+.contenedor .equipo__body {
+  padding: 2%;
+  text-align: center;
+}
+.contenedor .equipo__body form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contenedor .equipo__body form input {
+  padding: 2%;
+  font-style: oblique;
+  color: rgb(53, 53, 53);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(0, 120, 175), rgb(0, 140, 255));
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

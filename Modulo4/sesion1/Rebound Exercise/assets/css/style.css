@@ -1,0 +1,139 @@
+.alert {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.699);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 0 30% 0;
+  padding: 10%;
+}
+.alert__carta {
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+}
+.alert__carta--text {
+  padding: 5%;
+  color: rgb(92, 92, 92);
+  text-align: justify;
+}
+.alert__carta--footer {
+  margin: 2%;
+  text-align: end;
+  color: rgb(0, 89, 255);
+}
+.alert__carta--footer strong:hover {
+  color: rgb(0, 140, 255);
+}
+
+.bienvenida {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0%;
+}
+.bienvenida .welcome {
+  width: 500px;
+  height: 150px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+}
+.bienvenida .welcome__header {
+  margin: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  text-align: center;
+}
+.bienvenida .welcome__header span {
+  font-style: italic;
+}
+.bienvenida .welcome__body {
+  margin: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.informacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-left: 30%;
+}
+.informacion .horario {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.informacion .fecha {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info2 {
+  text-align: center;
+}
+.info2 .vuelo {
+  width: 370px;
+  height: 100px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -2px 1px 30px 0px rgba(0, 0, 0, 0.65);
+  padding: 2%;
+  margin-top: 4%;
+}
+.info2 .vuelo__header {
+  margin: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: center;
+}
+.info2 .vuelo__body {
+  margin: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #2f00ff, #f715ff);
+}
+
+/*# sourceMappingURL=style.css.map */

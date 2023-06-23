@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains typography styles.
+// -----------------------------------------------------------------------------
+.anuncio {
+
+    .caja {
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+        }
+
+        .form {
+            background-color: #fff;
+            padding: 5% 0 5% 0;
+    
+            p {
+                font-size: small;
+            }
+        }
+    }
+}

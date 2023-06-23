@@ -1,0 +1,44 @@
+.form__title {
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+.form__label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.form__boton {
+  text-align: center;
+}
+.form__boton--style {
+  border: 2px solid rgb(81, 200, 255);
+  border-radius: 15px;
+  padding: 1%;
+}
+
+*::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  --bs-bg-opacity: 0.1;
+}
+
+.contenedor {
+  width: 70%;
+  margin: 5% 0% 5% 15%;
+}
+.contenedor .form {
+  width: 100%;
+  background-color: white;
+  padding: 2%;
+  border: 2px solid rgb(243, 107, 186);
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */

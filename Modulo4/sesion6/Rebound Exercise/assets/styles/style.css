@@ -1,0 +1,77 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contenedor .beber {
+  width: 35%;
+  height: auto;
+  padding: 3%;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 5% 0 0 1%;
+}
+.contenedor .beber table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.contenedor .beber table th, .contenedor .beber table td {
+  padding: 8px;
+  border-top: 2px solid rgb(216, 216, 216);
+  border-bottom: 2px solid rgb(216, 216, 216);
+}
+.contenedor .beber table tr {
+  border-left: 2px solid rgb(216, 216, 216);
+  border-right: 2px solid rgb(216, 216, 216);
+}
+.contenedor .beber table tr .precio {
+  text-align: right;
+}
+.contenedor .menu {
+  width: 35%;
+  height: auto;
+  padding: 3%;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 2% 0 0 1%;
+}
+.contenedor .menu .item {
+  border: 1px solid rgb(216, 216, 216);
+  padding: 2%;
+}
+.contenedor .menu .item__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contenedor .menu .item__body--text {
+  width: 70%;
+}
+.contenedor .menu .item__body--img {
+  width: 100px;
+  border-radius: 100%;
+}
+.contenedor .cuenta {
+  width: 35%;
+  height: auto;
+  padding: 3%;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 2% 0 2% 1%;
+}
+.contenedor .cuenta table {
+  display: flex;
+  justify-content: center;
+}
+.contenedor .cuenta table tr {
+  text-align: justify;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(15, 175, 0), rgb(255, 38, 0));
+}
+
+/*# sourceMappingURL=style.css.map */
