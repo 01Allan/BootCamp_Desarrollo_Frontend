@@ -1,0 +1,96 @@
+.contenedor {
+  font-weight: bold;
+}
+.contenedor label {
+  font-size: 12px;
+}
+
+.boton--sign {
+  border: none;
+  border-bottom: 2px solid rgb(0, 89, 255);
+  background-color: transparent;
+}
+
+.boton--vip {
+  border: none;
+  background-color: transparent;
+}
+
+.boton--sign:hover {
+  cursor: pointer;
+}
+
+.boton--sign:active {
+  animation: pulsar 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+.boton--vip:hover {
+  cursor: pointer;
+}
+
+.boton--vip:active {
+  animation: pulsar 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.formulario {
+  background: url("/assets/img/manos.jpeg");
+  width: 40%;
+}
+@media (max-width: 576px) {
+  .formulario {
+    width: 80%;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .formulario {
+    width: 70%;
+  }
+}
+@media (min-width: 769px) and (max-width: 991.98px) {
+  .formulario {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .formulario {
+    width: 50%;
+  }
+}
+.formulario .contenedor {
+  background-color: rgba(51, 47, 43, 0.85);
+}
+.formulario .contenedor .usuario input,
+.formulario .contenedor .correo input,
+.formulario .contenedor .contrasena input {
+  width: 90%;
+  margin-left: 3%;
+  border-radius: 20px;
+  padding: 2%;
+  background-color: rgba(192, 192, 192, 0.3);
+  border: 1px solid rgba(71, 71, 71, 0.534);
+  color: rgb(192, 192, 192);
+}
+.formulario .contenedor input::placeholder {
+  color: rgb(196, 196, 196);
+}
+.formulario .contenedor label {
+  color: rgb(172, 172, 172);
+}
+
+body {
+  background: rgba(0, 0, 0, 0.342);
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

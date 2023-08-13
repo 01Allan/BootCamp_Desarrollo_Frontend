@@ -1,0 +1,10 @@
+@import 'base/typography';
+@import 'components/buttons';
+@import 'layout/forms';
+
+body {
+    background: rgb(0, 225, 255);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5));
+    display: flex;
+    justify-content: center;
+}

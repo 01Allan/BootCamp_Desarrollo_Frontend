@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Drilling</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+<body>
+
+    <section class="titulo">
+        <h3 class="container my-5">PRESUPUESTO APP</h3>
+    </section>
+
+    <section class="calculadora d-flex justify-content-around flex-column">
+        <div class="inputs">
+            <div class="presupuesto container">
+                <div class="presupuesto__header">
+                    <h6>Ingresa tu presupuesto</h6>
+                </div>
+                <div class="presupuesto__body">
+                    <form>
+                        <div class="mb-3">
+                            <input type="number" class="form-control bg-success-subtle" id="presupuesto" aria-describedby="emailHelp">
+                        </div>
+                        <button type="button" class="btn btn-outline-success" id="calcular">Calcular</button>
+                    </form>                      
+                </div>
+            </div>
+
+            <div class="container calculo d-flex mb-5 w-50">
+                <div class="calculo__presupuesto mx-1">
+                    <div class="calculo__presupuesto--header">
+                        <h6>PRESUPUESTO</h6>
+                    </div>
+                    <div class="calculo__presupuesto--body d-flex">
+                        <h5>$</h5>
+                        <h5 class="total" id="totalPresupuesto">0</h5>
+                    </div>
+                </div>
+
+                <div class="calculo__gastos mx-5">
+                    <div class="calculo__gastos--header">
+                        <h6>GASTOS</h6>
+                    </div>
+                    <div class="calculo__gastos--body d-flex">
+                        <h5>$</h5>
+                        <h5 class="acumulado" id="acumulado">0</h5>
+                    </div>
+                </div>
+
+                <div class="calculo__saldo mx-5">
+                    <div class="calculo__saldo--header">
+                        <h6>SALDO</h6>
+                    </div>
+                    <div class="calculo__saldo--body d-flex">
+                        <h5>$</h5>
+                        <h5 class="restante" id="restante">0</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        <div class="outputs">
+
+            <div class="gastos container">
+               
+                <div class="gastos__body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="gasto" class="form-label">Ingresa el nombre del gasto</label>
+                            <input type="text" class="form-control bg-danger-subtle" id="name--gasto" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="monto" class="form-label">Ingresa la cantidad del gasto</label>
+                            <input type="number" class="form-control bg-danger-subtle" id="valorGasto" aria-describedby="emailHelp">
+                        </div>
+                        <button type="button" class="btn btn-outline-success" id="addGasto">Añadir Gasto</button>
+                    </form>                      
+                </div>
+            </div>
+            
+            <div class="container mostrar d-flex my-5 w-50 flex-column">
+                <div class="mostrar__head">
+                    <div>
+                        <div class="d-flex">
+                            <h6 class="me-5">GASTO</h6>
+                            <h6 class="mx-5">VALOR</h6>
+                        </div>
+                        <hr width="500px">
+                    </div>
+                </div>
+
+                <div class="mostrar__body">
+                    <div class="mostrar--gastos" id="mostrar--gastos">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+
+    <script type="module" src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>

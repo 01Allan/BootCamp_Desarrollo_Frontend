@@ -1,0 +1,10 @@
+@import 'base/typography';
+@import 'components/button';
+@import 'layout/forms';
+
+body {
+    background: rgba(0, 0, 0, 0.342);
+    display: flex;
+    justify-content: center;
+    
+}

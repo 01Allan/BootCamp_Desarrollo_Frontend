@@ -1,0 +1,49 @@
+.formulario {
+    background: url('/assets/img/manos.jpeg');
+    width: 40%;
+
+    @media (max-width: 576px) {
+        width: 80%;
+    }
+
+    @media (min-width: 577px) and (max-width: 768px) {
+        width: 70%;
+    }
+
+    @media (min-width: 769px) and (max-width: 991.98px) {
+        width: 60%;
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        width: 50%;
+    }
+
+    // @media (min-width: 1200px) {
+    //     width: 40%;
+    // }
+
+    .contenedor {
+        background-color: rgba(51, 47, 43, 0.85);
+
+        .usuario input,
+        .correo input,
+        .contrasena input {
+            width: 90%;
+            margin-left: 3%;
+            border-radius: 20px;
+            padding: 2%;
+            background-color: rgba(192, 192, 192, 0.3);
+            border: 1px solid rgba(71, 71, 71, 0.534);
+            color: rgb(192, 192, 192);
+        }
+
+        input::placeholder {
+            color: rgb(196, 196, 196);
+        }
+
+        label {
+            color: rgb(172, 172, 172);
+        }
+    }
+}
+

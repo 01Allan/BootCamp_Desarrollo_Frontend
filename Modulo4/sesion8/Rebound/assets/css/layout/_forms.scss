@@ -1,0 +1,35 @@
+.formulario {
+    width: 50%;
+    padding: 1%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    border-radius: 10px;
+
+    &--style {
+        form {
+            .formulario--personales {
+                input {
+                    background-color: black;
+                    color: #fff;
+                }
+                
+                input::placeholder {
+                    color: #fff;
+                }
+            }
+
+            .formulario--other {
+                input {
+                    background-color: black;
+                    color: #fff;
+                }
+                
+                input::placeholder {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.calculadora .inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.calculadora .inputs .presupuesto {
+  padding: 1%;
+  margin: 0% 0% 1% 8%;
+  border: 1px solid green;
+  border-radius: 10px;
+  width: 30rem;
+  background-color: rgb(154, 255, 188);
+}
+.calculadora .outputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.calculadora .outputs .gastos {
+  padding: 1%;
+  margin: 5% 0% 1% 8%;
+  border: 1px solid red;
+  border-radius: 10px;
+  width: 30rem;
+  background-color: rgb(255, 154, 154);
+}
+.calculadora .outputs .mostrar i:hover {
+  cursor: pointer;
+}
+.calculadora .outputs .mostrar i:active {
+  animation: borrado 1s infinite;
+}
+@keyframes borrado {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,91 @@
+.titulo {
+    background: linear-gradient(309deg, rgba(0,41,250,1) 0%, rgba(5,42,247,1) 0%, rgba(252,70,107,1) 50%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.calculos {
+    color: rgb(89, 0, 255);
+    display: flex;
+    justify-content: center;
+    
+
+    .contenedor {
+        
+        width: 75%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        .calculos__item {
+            width: 90%;
+
+            input {
+                width: 100%;
+                border: none;
+                border-bottom: 2px solid rgb(98, 0, 255);
+                color: rgb(98, 0, 255);
+                box-sizing: border-box;
+                outline: none;
+            }
+        }
+    }
+    
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 5% 0;
+
+    button {
+        background: linear-gradient(309deg, rgba(0,41,250,1) 0%, rgba(5,42,247,1) 0%, rgba(252,70,107,1) 90%);
+        padding: 1%;
+        border: 2px solid rgba(5,42,247,1);
+        border-radius: 5px;
+        color: #fff;
+    }
+
+    button:active {
+        animation: botonclick 1s infinite;
+    }
+
+    @keyframes botonclick {
+        0% {
+            transform: scale(0.9);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    @keyframes rotUp {
+        0% {
+            transform: rotate(0deg) translateY(0); 
+        }
+
+        50% {
+            transform: rotate(360deg) translateY(50px);
+        }
+
+        100% {
+            transform: rotate(720deg) translateY(0);
+        }
+    }
+
+}
+
+.respuesta {
+    background: linear-gradient(309deg, rgba(0,41,250,1) 0%, rgba(5,42,247,1) 0%, rgba(252,70,107,1) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        width: 70%;
+    }
+
+}
