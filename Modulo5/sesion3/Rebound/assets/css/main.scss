@@ -1,0 +1,9 @@
+@import 'layout/contenido';
+
+body {
+    background: rgb(42,150,0);
+    background: -moz-linear-gradient(90deg, rgba(42,150,0,1) 0%, rgba(255,0,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(42,150,0,1) 0%, rgba(255,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(42,150,0,1) 0%, rgba(255,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a9600",endColorstr="#ff0000",GradientType=1);
+}

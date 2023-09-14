@@ -1,0 +1,69 @@
+@media (min-width: 0px) and (max-width: 576px) {
+  body {
+    background-image: url("/assets/img/pesas.jpeg");
+  }
+}
+@media (min-width: 577px) and (max-width: 991px) {
+  body {
+    background-image: url("/assets/img/pesas.jpeg");
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+  .datos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .datos .imagen {
+    display: none;
+  }
+}
+@media (min-width: 577px) and (max-width: 991px) {
+  .datos {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  .datos .imagen {
+    display: none;
+  }
+}
+.datos .formulario {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  .datos .formulario {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: hsla(208, 100%, 97%, 0.75);
+    padding: 3%;
+  }
+}
+@media (min-width: 577px) and (max-width: 991px) {
+  .datos .formulario {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(208, 100%, 97%, 0.75);
+    padding: 3%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

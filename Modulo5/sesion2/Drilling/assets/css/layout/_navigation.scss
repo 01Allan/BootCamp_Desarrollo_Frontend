@@ -1,0 +1,67 @@
+body {
+    @media (min-width: 0px) and (max-width: 576px) {
+        background-image: url('/assets/img/pesas.jpeg');
+    }
+
+    @media (min-width: 577px) and (max-width: 991px) {
+        background-image: url('/assets/img/pesas.jpeg');
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+}
+
+.datos {
+
+    @media (min-width: 0px) and (max-width: 576px) {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        .imagen {
+            display: none;
+        }
+    }
+
+    @media (min-width: 577px) and (max-width: 991px) {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        .imagen {
+            display: none;
+        }
+    }
+
+    .formulario {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+        margin-left: 5%;
+
+        @media (min-width: 0px) and (max-width: 576px) {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            background-color: hsla(208, 100%, 97%, 0.75);
+            padding: 3%;
+        }
+
+        @media (min-width: 577px) and (max-width: 991px) {
+            width: 70%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: hsla(208, 100%, 97%, 0.75);
+            padding: 3%;
+        }
+        
+    }
+}

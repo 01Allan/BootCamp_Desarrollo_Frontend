@@ -11,6 +11,7 @@
 <body class="bg-warning-subtle">
     
     <section class="formulario my-5">
+
         <div class="contenedor p-5">
             <div class="tabs">
                 <button type="button" class=" boton--sign text-white me-4" id="signin">SIGN UP</button>
@@ -20,7 +21,7 @@
             <div class="signup w-100 my-4" id="signup-frame">
                 <div class="texto text-white text-start d-flex align-content-center justify-content-center">
                     <p>
-                        complete los siguientes campos para crear su cuenta regular. Considere que a este tipo de cuenta se le asigna un nombre de usuario.
+                        Complete los siguientes campos para crear su cuenta regular. Considere que a este tipo de cuenta se le asigna un nombre de usuario.
                     </p>
                 </div>
 
@@ -31,17 +32,19 @@
                     </div>
 
                     <div class="contrasena row">
-                        <label for="email" class="text--correo">CONTRASEÑA</label>
+                        <label for="pass" class="text--correo">CONTRASEÑA</label>
                         <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" required>
                     </div>
 
                     <div class="aceptar my-3">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                        <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones.</label>
+                        <input type="checkbox" class="form-check-input" id="checkSign" required>
+                        <label class="form-check-label" for="exampleCheck">Acepto los términos y condiciones.</label>
                     </div>
 
                     <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary w-100 rounded-5 p-2" type="button">SIGN UP</button>
+                        <button class="btn btn-primary w-100 rounded-5 p-2" id="btnSign" type="submit">
+                            SIGN UP
+                        </button>
                     </div>
                 </form>
 
@@ -54,7 +57,7 @@
             <div class="vip w-100 my-4 d-none" id="vip-frame">
                 <div class="texto text-white text-start d-flex align-content-center justify-content-center">
                     <p>
-                        complete los siguientes campos para crear su cuenta VIP. Por ser un usuario VIP podrá crear su nombre de usuario personalmente.
+                        Complete los siguientes campos para crear su cuenta VIP. Por ser un usuario VIP podrá crear su nombre de usuario personalmente.
                     </p>
                 </div>
 
@@ -71,17 +74,17 @@
                     </div>
 
                     <div class="contrasena row">
-                        <label for="email" class="text--correo">CONTRASEÑA</label>
+                        <label for="pass2" class="text--correo">CONTRASEÑA</label>
                         <input type="password" name="password" id="password2" placeholder="Ingresa tu contraseña" required>
                     </div>
 
                     <div class="aceptar my-3">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck2" required>
+                        <input type="checkbox" class="form-check-input" id="checkVip" required>
                         <label class="form-check-label" for="exampleCheck1">Acepto los términos y condiciones.</label>
                     </div>
 
                     <div class="d-flex justify-content-center">
-                        <button class="btn btn-warning w-100 rounded-5 p-2" type="button">SIGN UP</button>
+                        <button class="btn btn-warning w-100 rounded-5 p-2" id="btnvip" type="submit">SIGN UP</button>
                     </div>
                 </form>
 

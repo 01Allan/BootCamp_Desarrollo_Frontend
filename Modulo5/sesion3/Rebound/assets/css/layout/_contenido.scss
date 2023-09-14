@@ -1,0 +1,31 @@
+.contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2%;
+
+    .mejorar {
+        width: 50%;
+
+        &__title {
+            width: 95%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    }
+
+    .resumen {
+        width: 50%;
+
+        &__title {
+            width: 95%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+        }
+    }
+
+    
+}
